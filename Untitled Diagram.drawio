@@ -1,11 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="-KgCttTnVofkXYudEgZT">
-    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1985" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YPfzY6ak2SO384A0trMU-1" value="INICIO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="YPfzY6ak2SO384A0trMU-1" value="&lt;p data-sourcepos=&quot;5:1-5:170&quot;&gt;Imagine que 15 pessoas foram convidadas para assistir a um filme e dar suas opiniões sobre ele. Cada pessoa tem uma idade e pode dar uma das seguintes notas para o filme:&lt;/p&gt;&lt;ul data-sourcepos=&quot;7:1-10:0&quot;&gt;&lt;li data-sourcepos=&quot;7:1-7:13&quot;&gt;1 - Regular&lt;/li&gt;&lt;li data-sourcepos=&quot;8:1-8:9&quot;&gt;2 - Bom&lt;/li&gt;&lt;li data-sourcepos=&quot;9:1-10:0&quot;&gt;3 - Ótimo&lt;/li&gt;&lt;/ul&gt;&lt;p data-sourcepos=&quot;11:1-11:74&quot;&gt;Gostaríamos de saber algumas informações sobre as opiniões dessas pessoas:&lt;/p&gt;&lt;ol data-sourcepos=&quot;13:1-16:0&quot;&gt;&lt;li data-sourcepos=&quot;13:1-13:63&quot;&gt;Qual a média de idade das pessoas que acharam o filme &quot;Bom&quot;?&lt;/li&gt;&lt;li data-sourcepos=&quot;14:1-14:45&quot;&gt;Quantas pessoas acharam o filme &quot;Regular&quot;?&lt;/li&gt;&lt;li data-sourcepos=&quot;15:1-16:0&quot;&gt;Qual o percentual de pessoas que acharam o filme &quot;Ótimo&quot;?&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-200" width="370" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="6km-QMRMGELbwviiB4Ti-3" value="INÍCIO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6km-QMRMGELbwviiB4Ti-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6km-QMRMGELbwviiB4Ti-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="-20" as="sourcePoint" />
+            <mxPoint x="1080" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
