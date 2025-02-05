@@ -101,63 +101,30 @@ programa {
 // "Adolescente" (13-17), "Adulto" (18-64) ou "Idoso" (65+).
 
 
+6 -//Dado um valor de temperatura em Celsius, 
+//classifique a água como "Congelada" (abaixo de 0°C), 
+//"Líquida" (0°C a 100°C) ou "Vapor" (acima de 100°C).
 
 programa {
   funcao inicio() {
-    inteiro idade
+    real celsius
 
-    escreva("Digite sua idade: ")
-    leia(idade)
+    escreva("Digite uma temperatura em celsius: ")
+    leia(celsius)
 
-    se (idade > 0 e idade <= 12){
-      escreva("Você é criança")
+    se (celsius < 0){
+      escreva("Congelada")
+    }
+    se (celsius >= 0 e celsius <=100){
+      escreva("Líquida")
+    }
+    se (celsius > 100){
+      escreva("Vapor")
+    }
 
-    }
-    se (idade >= 13 e idade <= 17){
-      escreva("Você é adolescente")
-      
-    }
-    se (idade >= 18 e idade <= 64){
-      escreva("Você é Adulto")
-      
-    }
-    se (idade >= 65){
-      escreva("Você é Idoso")
-      
-    }
 
   }
 }
 
-6 - //Escreva um programa que peça a idade de uma pessoa e classifique-a como "Criança" (0-12),
-// "Adolescente" (13-17), "Adulto" (18-64) ou "Idoso" (65+).
-
-
-
-programa {
-  funcao inicio() {
-    inteiro idade
-
-    escreva("Digite sua idade: ")
-    leia(idade)
-
-    se (idade > 0 e idade <= 12){
-      escreva("Você é criança")
-
-    }
-    se (idade >= 13 e idade <= 17){
-      escreva("Você é adolescente")
-      
-    }
-    se (idade >= 18 e idade <= 64){
-      escreva("Você é Adulto")
-      
-    }
-    se (idade >= 65){
-      escreva("Você é Idoso")
-      
-    }
-
-  }
-}
+7 -
 
