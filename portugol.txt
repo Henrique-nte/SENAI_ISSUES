@@ -1,0 +1,163 @@
+1 - //Ler um valor e escrever se é positivo, negativo ou zero.
+
+programa {
+  funcao inicio() {
+    real num
+    
+    escreva("Escreva um número: ")
+    leia(num)
+
+    se (num > 0){
+      escreva("O número ", num, " É positivo")
+    }senao{
+      escreva("O número ", num , " É negativo")
+    }senao{
+      
+    }
+    
+  }
+}
+
+2 - // Crie um programa que calcule o valor final de um produto com desconto. 
+//Se o valor do produto for superior a R$ 100,00, aplique um desconto de 10%. 
+//Caso contrário, o desconto é de 5%. O programa deve ler o valor do produto 
+//e imprimir o valor final com o desconto aplicado.
+programa {
+  funcao inicio () {
+    real valor, valorfinal, desconto
+
+    escreva("Digite o valor do produto: ")
+    leia(valor)
+
+    se (valor >= 100) {
+      desconto = (10 / 100) * valor
+      valorfinal = valor - desconto
+      escreva("O valor total com desconto de 10% é: ", valorfinal)
+    }senao {
+      desconto = (5 / 100) * valor
+      valorfinal = valor - desconto
+      escreva("O valor total com desconto de 5% é: ", valorfinal)
+    }
+
+  }
+}
+
+3 - //Crie um programa que verifique se três comprimentos podem formar um triângulo. 
+//O programa deve ler três valores inteiros e determinar se eles podem formar um triângulo. 
+//As condições são: a soma de qualquer dois lados deve ser maior que o terceiro lado.
+
+
+programa {
+  funcao inicio() {
+    inteiro a, b, c
+
+    escreva("Digite o primeiro valor: ")
+    leia(a)
+    escreva("Digite o segundo valor: ")
+    leia(b)
+    escreva("Digite o terceiro valor: ")
+    leia(c)
+
+    se (a + b > c e b + c > a e c + a > b ){
+
+      escreva("Forma")
+
+    }
+    senao{
+      escreva("Não forma")
+    }
+
+  }
+}
+4 - // Crie um programa que calcule o imposto a ser pago com base na renda anual.
+// Se a renda anual for até R$ 30.000,00, o imposto é 5%.
+// Se a renda for entre R$ 30.001,00 e R$ 60.000,00, o imposto é 10%.
+// Para rendas acima de R$ 60.000,00, o imposto é 15%. O programa deve ler a renda anual e imprimir o valor do imposto.
+
+programa {
+  funcao inicio() {
+    real imposto, renda
+
+    escreva("Digite sua renda atual: ")
+    leia(renda)
+
+    se (renda <= 30000){
+      imposto = 0.05 * renda
+      escreva("Imposto: ", imposto)
+      
+    }
+    se (renda > 30000 e renda <= 60000){
+      imposto = 0.10  * renda
+      escreva("Imposto: ", imposto)
+    }
+    se (renda > 60000){
+      imposto = 0.15 * renda
+      escreva("Imposto: ", imposto)
+    }
+  }
+}
+
+5 - //Escreva um programa que peça a idade de uma pessoa e classifique-a como "Criança" (0-12),
+// "Adolescente" (13-17), "Adulto" (18-64) ou "Idoso" (65+).
+
+
+
+programa {
+  funcao inicio() {
+    inteiro idade
+
+    escreva("Digite sua idade: ")
+    leia(idade)
+
+    se (idade > 0 e idade <= 12){
+      escreva("Você é criança")
+
+    }
+    se (idade >= 13 e idade <= 17){
+      escreva("Você é adolescente")
+      
+    }
+    se (idade >= 18 e idade <= 64){
+      escreva("Você é Adulto")
+      
+    }
+    se (idade >= 65){
+      escreva("Você é Idoso")
+      
+    }
+
+  }
+}
+
+6 - //Escreva um programa que peça a idade de uma pessoa e classifique-a como "Criança" (0-12),
+// "Adolescente" (13-17), "Adulto" (18-64) ou "Idoso" (65+).
+
+
+
+programa {
+  funcao inicio() {
+    inteiro idade
+
+    escreva("Digite sua idade: ")
+    leia(idade)
+
+    se (idade > 0 e idade <= 12){
+      escreva("Você é criança")
+
+    }
+    se (idade >= 13 e idade <= 17){
+      escreva("Você é adolescente")
+      
+    }
+    se (idade >= 18 e idade <= 64){
+      escreva("Você é Adulto")
+      
+    }
+    se (idade >= 65){
+      escreva("Você é Idoso")
+      
+    }
+
+  }
+}
+
