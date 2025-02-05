@@ -126,5 +126,37 @@ programa {
   }
 }
 
-7 -
+7 - //Desenvolva um sistema de desconto para compras online.
+//Se o valor total da compra for acima de R$200
+//se o cliente for um membro do programa de fidelidade, aplique um desconto de 10%. Caso contrário, não aplique desconto.
+
+programa {
+  funcao inicio() {
+    real desconto, valor, valorfinal
+    inteiro membro
+
+    faca { 
+      escreva("Você é membro do programa de fidelidade? \nDigite (1) para Sim e (2) para Não: ")
+      leia(membro)
+
+      se (membro != 1 e membro != 2) {
+        escreva("Número inválido! Escolha apenas 1 ou 2.\n")
+      }
+
+    } enquanto (membro != 1 e membro != 2)
+
+    escreva("Digite o valor total da compra: ")
+    leia(valor)
+
+    se (membro == 1 e valor > 200) {
+      desconto = 0.10 * valor
+      valorfinal = valor - desconto
+      escreva("O valor com desconto é R$", valorfinal)
+    } senao {
+      escreva("Sem desconto. Valor final R$", valor)
+    }
+    
+  }
+}
+
 
