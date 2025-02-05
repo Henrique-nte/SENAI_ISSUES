@@ -87,12 +87,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xotu9i_zz__DDbZpvRBg" name="2">
-    <mxGraphModel dx="1561" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mjfPcsex7Xe2jX7XgGDg-1" value="&lt;span id=&quot;docs-internal-guid-a38c0039-7fff-b756-3df3-3589350ec872&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Roboto, sans-serif; color: rgb(95, 99, 104); background-color: rgb(255, 255, 255); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Crie um fluxograma para um programa que gerencie o empréstimo de equipamentos de uma almoxarifado de ferramentas. O programa deve permitir ao usuário solicitar um equipamento, verificar se o equipamento está disponível, registrar o empréstimo se o equipamento estiver disponível e exibir uma mensagem de erro se não estiver. O programa deve encerrar após o registro do empréstimo ou a exibição da mensagem de erro.&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="120" width="450" height="120" as="geometry" />
+          <mxGeometry x="-10" y="120" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="mjfPcsex7Xe2jX7XgGDg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mjfPcsex7Xe2jX7XgGDg-3" target="mjfPcsex7Xe2jX7XgGDg-4">
           <mxGeometry relative="1" as="geometry" />
