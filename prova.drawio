@@ -230,7 +230,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GqZz0EDXEGSYqb4a-bL9" name="4">
-    <mxGraphModel dx="1189" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="678" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,6 +295,11 @@
         </mxCell>
         <mxCell id="vGilMSr-ppqVHzkB0Vnt-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vGilMSr-ppqVHzkB0Vnt-21" target="vGilMSr-ppqVHzkB0Vnt-28">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9UNkox1VzqaXaOPUWY6F-9" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGilMSr-ppqVHzkB0Vnt-29">
+          <mxGeometry x="-0.2494" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="vGilMSr-ppqVHzkB0Vnt-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ParcelaDesejada&amp;nbsp;&lt;/font&gt;&lt;div&gt;== 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="720" y="290" width="100" height="100" as="geometry" />
@@ -382,7 +387,7 @@
         <mxCell id="9UNkox1VzqaXaOPUWY6F-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9UNkox1VzqaXaOPUWY6F-4" target="vGilMSr-ppqVHzkB0Vnt-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9UNkox1VzqaXaOPUWY6F-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Em quantas vezes você deseja parcelar?&lt;/font&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="9UNkox1VzqaXaOPUWY6F-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Em quantas vezes você deseja parcelar?&lt;/font&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
           <mxGeometry x="580" y="310" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
