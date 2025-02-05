@@ -154,13 +154,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lM-1jAapkDVq7__zMkB_" name="3">
-    <mxGraphModel dx="1105" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EC_D6ULvOY_d8TTZUSdb-1" value="&lt;span id=&quot;docs-internal-guid-b3c4e41a-7fff-b7bf-77cd-4d9011999d73&quot;&gt;&lt;ol style=&quot;margin-top:0;margin-bottom:0;padding-inline-start:48px;&quot;&gt;&lt;li aria-level=&quot;1&quot; style=&quot;list-style-type: decimal; font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space: pre;&quot; dir=&quot;ltr&quot;&gt;&lt;p role=&quot;presentation&quot; style=&quot;line-height:1.2;margin-top:12pt;margin-bottom:12pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Roboto, sans-serif; color: rgb(95, 99, 104); background-color: rgb(255, 255, 255); font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; text-wrap-mode: wrap;&quot;&gt;Crie um fluxograma para um programa que calcule o desconto aplicado a uma compra com base em uma promoção especial. O programa deve solicitar o valor da compra e a porcentagem de desconto. Em seguida, deve calcular o valor do desconto e o valor final a ser pago. O programa deve perguntar se o usuário deseja calcular o desconto para outra compra e repetir o processo se necessário.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="-25" width="330" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="EC_D6ULvOY_d8TTZUSdb-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EC_D6ULvOY_d8TTZUSdb-2" target="EC_D6ULvOY_d8TTZUSdb-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -236,7 +233,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GqZz0EDXEGSYqb4a-bL9" name="4">
-    <mxGraphModel dx="1675" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
