@@ -244,9 +244,11 @@ programa {
 //número de prestações que o solicitante deseja pagar e informe se o empréstimo pode ou
 //não ser concedido.
 
+
 programa{
   funcao inicio(){
-    real renda, emprestimo, numpresta, conceder, porcentagem
+    real renda, emprestimo, valorpresta , porcentagem
+    inteiro numpresta
 
     escreva("Renda Mensal: ")
     leia(renda)
@@ -255,15 +257,23 @@ programa{
     escreva("Número de prestações: ")
     leia(numpresta)
 
-    se (emprestimo * 10 == renda){
-      porcentagem  = (renda / 100) * 30
+    se (numpresta >= 1){
+
+    valorpresta = (emprestimo / numpresta)
+    porcentagem  = renda * 0.3
+
+    se (emprestimo <=  renda * 10 e valorpresta <= porcentagem){
+      escreva("Concedido")
+    }senao{
+      escreva("Não permitido o empréstimo")
     }
-    
-
-
-
+    }senao{
+      escreva("Número de prestação inválido, tente novamente.")
+    }
+  
   }
 }
+
 
 
 11 - //11 Crie um programa que simule uma calculadora básica. 
