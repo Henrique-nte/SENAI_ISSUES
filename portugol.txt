@@ -168,7 +168,7 @@ programa {
     faca{
     escreva("PLAYER 1: (1 para PEDRA) (2 para PAPEL) (3 para TESOURA): ")
     leia(escolha1)
-    escreva("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    limpa()
     
 
     se (escolha1 != 1 e escolha1 != 2  e escolha1 != 3) {
@@ -236,6 +236,7 @@ programa {
 
   }
 }
+
 
 
 
