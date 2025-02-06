@@ -238,5 +238,47 @@ programa {
 }
 
 
+11 - //11 Crie um programa que simule uma calculadora básica. 
+// usuário deve inserir dois números e uma operação matemática (+, -, *, /).
+// O programa deve realizar o cálculo correspondente.
+programa {
+  funcao inicio() {
+    cadeia divisao = "/", adicao = "+", subtracao = "-", multiplacacao = "*", decisao = ""
+    real valor, valor2, resultado
+
+    escreva("Digite o primeiro valor: ")
+    leia(valor)
+    escreva("Digite o primeiro valor: ")
+    leia(valor2)
+
+    escreva("Qual operação matemática você deseja realizar?")
+    escreva(" / = divisao\n + = adicao\n - = subtracao\n * = multiplacao \n")
+    escreva("Escolha: ")
+    leia(decisao)
+
+    se (decisao == "/"){
+      resultado = valor / valor2
+      escreva(valor," dividido por ", valor2, " é ", resultado)
+    }
+    se (decisao == "+"){
+      resultado = valor + valor2
+      escreva(valor," mais ", valor2, " é ", resultado)
+    }
+    se (decisao == "-"){
+      resultado = valor - valor2
+      escreva(valor," menos por ", valor2, " é ", resultado)
+    }
+    se (decisao == "*"){
+      resultado = valor * valor2
+      escreva(valor," multiplicado por ", valor2, " é ", resultado)
+    }se(decisao != "/" e decisao != "+" e decisao != "-" e decisao != "*"){
+     escreva("Operação não identificado")   
+    }
+    
+
+  }
+}
+
+
 
 
