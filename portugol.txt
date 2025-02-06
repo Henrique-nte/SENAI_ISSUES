@@ -159,4 +159,83 @@ programa {
   }
 }
 
+8 - //8. Desenvolva o jogo "Pedra Papel Tesoura"
+
+programa {
+  funcao inicio() {
+    inteiro pedra = 1, papel = 2 , tesoura = 3, escolha1, escolha2
+    
+    faca{
+    escreva("PLAYER 1: (1 para PEDRA) (2 para PAPEL) (3 para TESOURA): ")
+    leia(escolha1)
+    escreva("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+    
+
+    se (escolha1 != 1 e escolha1 != 2  e escolha1 != 3) {
+        escreva("Número inválido! Escolha apenas 1, 2 ou 3.\n")
+        
+      }
+      
+    } enquanto (escolha1 != 1 e escolha1 != 2  e escolha1 != 3)
+
+    faca{
+    escreva("PLAYER 2: (1 para PEDRA) (2 para PAPEL) (3 para TESOURA): ")
+    
+    leia(escolha2)
+    
+    se (escolha2 != 1 e escolha2 != 2  e escolha2 != 3) {
+        escreva("Número inválido! Escolha apenas 1, 2 ou 3.\n")
+      }
+
+    } enquanto (escolha2 != 1 e escolha2 != 2  e escolha2 != 3) 
+    
+    se (escolha1 == escolha2 ){
+      escreva("PLAYER 1 ESCOLHEU: ", escolha1, "\n")
+      escreva("PLAYER 2 ESCOLHEU: ", escolha2,"\n")
+      escreva("EMPATE!!")
+    }
+    //Lógica para player 1 ganhou
+    se (escolha1 == pedra e escolha2 == tesoura ){
+      escreva("PLAYER 1 ESCOLHEU PAPEL \n")
+      escreva("PLAYER 2 ESCOLHEU TESOURA \n")
+      escreva("Player 1 VENCEU!!")
+    }
+
+    se (escolha1 == tesoura e escolha2 == papel ){
+      escreva("PLAYER 1 ESCOLHEU PAPEL \n")
+      escreva("PLAYER 2 ESCOLHEU PAPEL \n")
+      escreva("Player 1 VENCEU!!")
+    }
+
+    se (escolha1 == papel e escolha2 == pedra ){
+      escreva("PLAYER 1 ESCOLHEU PAPEL \n")
+      escreva("PLAYER 2 ESCOLHEU PEDRA \n")
+      escreva("Player 1 VENCEU!!")
+    }
+
+    //Lógica para player2 ganhar
+    
+    se (escolha1 == tesoura e escolha2 == pedra ){
+      escreva("PLAYER 1 ESCOLHEU TESOURA \n")
+      escreva("PLAYER 2 ESCOLHEU PEDRA \n")
+      escreva("Player 2 VENCEU!!")
+    }
+
+    se (escolha1 == papel e escolha2 == tesoura ){
+      escreva("PLAYER 1 ESCOLHEU PAPEL \n")
+      escreva("PLAYER 2 ESCOLHEU TESOURA \n")
+      escreva("Player 2 VENCEU!!")
+    }
+
+    se (escolha1 == pedra e escolha2 == papel ){
+      escreva("PLAYER 1 ESCOLHEU PEDRA \n")
+      escreva("PLAYER 2 ESCOLHEU PAPEL \n")
+      escreva("Player 2 VENCEU!!")
+    }
+
+
+  }
+}
+
+
 
