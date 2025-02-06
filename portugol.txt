@@ -279,6 +279,27 @@ programa {
   }
 }
 
+12 -//Crie um programa que solicite uma senha ao usuário e verifique se ela é válida. A senha correta deve ser "1234". 
+//Caso o usuário digite a senha errada, o programa deve exibir "Senha incorreta". Se for correta, exiba "Acesso permitido".
+programa {
+  funcao inicio() {
+  inteiro senha = 1234
+
+  escreva("Digite uma senha: ")
+  leia(senha)
+
+  se (senha == 1234){
+    escreva("Acesso permitido")
+  }
+  senao //(senha != 1234){{
+  {
+    escreva("Senha incorreta")
+  }
+
+  }
+}
+
+
 
 
 
