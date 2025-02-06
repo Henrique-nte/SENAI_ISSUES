@@ -237,6 +237,34 @@ programa {
   }
 }
 
+10 -//Uma financeira usa o seguinte critério para conceder empréstimos: o valor total do
+//empréstimo deve ser até dez vezes o valor da renda mensal do solicitante e o valor da
+//prestação deve ser no máximo 30% da renda mensal do solicitante. Escreva um programa
+//que leia a renda mensal de um solicitante, o valor total do empréstimo solicitado e o
+//número de prestações que o solicitante deseja pagar e informe se o empréstimo pode ou
+//não ser concedido.
+
+programa{
+  funcao inicio(){
+    real renda, emprestimo, numpresta, conceder, porcentagem
+
+    escreva("Renda Mensal: ")
+    leia(renda)
+    escreva("Valor Do Empréstimo solicitado: ")
+    leia(emprestimo)
+    escreva("Número de prestações: ")
+    leia(numpresta)
+
+    se (emprestimo * 10 == renda){
+      porcentagem  = (renda / 100) * 30
+    }
+    
+
+
+
+  }
+}
+
 
 11 - //11 Crie um programa que simule uma calculadora básica. 
 // usuário deve inserir dois números e uma operação matemática (+, -, *, /).
