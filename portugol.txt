@@ -384,6 +384,122 @@ programa {
   }
 }
 
+2 - // Crie um programa que simule uma calculadora simples. 
+//O usuário deve informar a operação desejada e os dois números para realizar o cálculo.
+// As operações podem ser: adição, subtração, multiplicação e divisão.
+
+programa {
+  funcao inicio() {
+    cadeia operacao 
+    real num1, num2, resultado
+
+    escreva("Digite um primeiro número: ")
+    leia(num1)
+    escreva("Digite um segundo número: ")
+    leia(num2)
+
+    escreva("para adição ('ad'), para subtração ('sub')\n para multiplicação ('mul') para divisão ('div')")
+    escreva("Digite a operação desejada: ")
+    leia(operacao)
+
+    escolha (operacao){
+      caso "ad":
+      resultado = num1 + num2
+      pare
+
+      caso "sub":
+      resultado = num1 - num2
+      pare
+
+      caso "mul":
+      resultado = num1 * num2
+      pare
+      
+      caso "div":
+      resultado = num1 / num2
+      pare
+
+    }
+   
+    escreva("Resultado: " + resultado)
+    
+
+  }
+}
+
+3 - //Crie um programa que ajude a programar turnos de trabalho em uma empresa. 
+//O usuário deve informar o dia da semana (1 a 7, sendo 1 para domingo e 7 para sábado). 
+//O programa deve exibir a programação dos turnos:
+//Dias úteis (segunda a sexta): Turno Normal
+//Sábado: Turno Reduzido
+//Domingo: Sem Trabalho
+
+
+programa {
+  funcao inicio() {
+    inteiro dia
+
+    escreva("Digite o dia da semana: ")
+    leia(dia)
+
+    escolha(dia){
+
+      caso 1:
+      escreva("Sem trabalho")
+      pare
+
+      caso 2: 
+      caso 3: 
+      caso 4: 
+      caso 5:  
+      caso 6: 
+      escreva("Turno Normal")
+      pare
+
+      caso 7:
+      escreva("Turno Reduzido")
+      pare
+
+      caso contrario:
+      escreva("Número Inválido")
+
+    }
+  }
+}
+
+4 - //Desenvolva um programa que analise o desempenho de vendas de uma loja. O usuário deve informar o total de vendas em um mês. Com base no valor, o programa deve classificar o desempenho de vendas:
+//Abaixo de R$ 5.000: Desempenho Fraco
+//Entre R$ 5.000 e R$ 10.000: Desempenho Regular
+//Acima de R$ 10.000: Desempenho Excelente
+
+
+programa {
+  funcao inicio() {
+    real total
+
+    escreva("Digite o total de vendas do mês: ")
+    leia(total)
+
+    escolha (total){
+      caso total <= 5000:
+        escreva("Desempenho Fraco")
+        pare
+      
+      caso total > 5000 e total <= 10000:
+        escreva("Desempenho Regular")
+        pare
+      
+      caso total > 10000:
+        escreva("Desempenho Excelente!")
+        pare
+      
+      caso total < 0:
+        escreva("Número inválido")
+      pare
+      }
+  }
+}
+
 
 
 
