@@ -336,7 +336,9 @@ programa {
 
   }
 }
---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ESCOLHA E CASO --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1 - //A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. 
 //Faça um algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente.
@@ -499,6 +501,51 @@ programa {
       }
   }
 }
+
+
+5 - //Faça um programa que permita o cadastro de produtos em uma empresa. 
+//O usuário deve informar o tipo de produto (Alimento, Bebida, Vestuário). 
+//O programa deve exibir uma mensagem de confirmação com o tipo de produto cadastrado e 
+//se ele é perecível ou não, de acordo com as seguintes regras:
+
+
+//Alimento: Perecível
+//Bebida: Não Perecível
+//Vestuário: Não Perecível
+programa {
+  funcao inicio() {
+    cadeia tipo
+
+
+    faca {
+    escreva("alimento/bebida/vestuario \n")
+    escreva("Informe o tipo de produto: ")
+    leia(tipo)
+    limpa()
+
+    se (tipo != "alimento" e tipo != "bebida" e tipo != "vestuario"){
+      escreva("Tipo de produto inválido! \n")
+    }
+    }enquanto (tipo != "alimento" e tipo != "bebida" e tipo != "vestuario" )
+
+    
+
+    escreva("Cadastro realizado com sucesso. TIPO: ", tipo, "\n")
+
+    escolha (tipo){
+      caso "alimento":
+      escreva("Produto Perecível")
+      pare
+
+      caso "bebida":
+      caso "vestuario":
+      escreva("Produto Não Perecível")
+      pare
+
+    }
+  }
+}
+
 
 
 
