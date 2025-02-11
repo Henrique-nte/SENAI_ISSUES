@@ -589,6 +589,386 @@ programa {
   }
 }
 
+7 - //- Desenvolva um programa que avalie o desempenho de um funcionário com base em sua pontuação.
+// O usuário deve informar a pontuação do funcionário. O programa deve classificar o desempenho da seguinte maneira:
+//0 a 5: Insatisfatório
+//6 a 8: Satisfatório
+//9 a 10: Excelente
+
+programa {
+  funcao inicio() {
+    real nota
+
+    escreva("Digite sua pontuação: ")
+    leia(nota)
+
+    escolha(nota){
+      caso 0:
+      caso 1:
+      caso 2:
+      caso 3:
+      caso 4:
+      caso 5:
+      escreva("Insatisfatório")
+
+      caso 6:
+      caso 7:
+      caso 8:
+      ecreva("Satisfatório")
+
+      caso 9:
+      caso 10:
+      escreva("Excelente")
+
+    }
+
+  }
+}
+
+
+8 - //Peça ao usuário para inserir o valor de um salário bruto e, 
+//calcule o imposto a ser pago com base na faixa de rendimento.
+
+//O programa deve considerar as seguintes faixas de imposto:
+//De 0 a 1.000: Isento de imposto.
+//De 1.001 a 3.000: Imposto de 10%.
+//De 3.001 a 5.000: Imposto de 15%.
+//Acima de 5.000: Imposto de 20%.
+
+programa {
+  funcao inicio() {
+    real bruto, imposto, total
+    
+    escreva("Digite o seu salário bruto: ")
+    leia(bruto)
+    
+    se(bruto >= 0 e bruto <= 1000){
+      total = bruto 
+    }
+    senao se(bruto > 1000 e bruto <= 3000){
+      total = bruto * 1.10
+    }
+    senao se(bruto > 3000 e bruto <= 5000){
+      total = bruto * 1.15
+    }
+    senao se(bruto > 5000){
+      total = bruto * 0.20
+    }
+
+    escreva("Total: ", total)
+
+  }
+}
+
+11 - //Verificar se um número é positivo ou negativo
+//peça ao usuário para inserir um número e imprima se o número é "Positivo" ou "Negativo".
+
+
+programa {
+  funcao inicio() {
+
+    real numero
+
+    escreva("Digite um número: ")
+    leia(numero)
+    
+    escolha (numero){
+      caso numero == 0:
+      escreva("Neutro")
+      caso numero < 0:
+      escreva("Negativo")
+      caso numero > 0:
+      escreva("Positivo")
+    }
+
+
+  }
+}
+
+12 - // Você deve criar um programa que classifique o nível de acesso de um usuário com base na sua função. 
+//O usuário deve inserir o nome de sua função, e o programa deve indicar qual é o seu nível de acesso.
+//As funções e seus níveis de acesso são:
+//Admin: Nível de acesso 3 (Acesso completo).
+//Gerente: Nível de acesso 2 (Acesso limitado, mas pode gerenciar usuários).
+//Funcionário: Nível de acesso 1 (Acesso restrito, apenas pode consultar informações).
+
+programa {
+  funcao inicio() {
+    cadeia nome, resposta_formatada
+    inteiro nivel
+    
+
+    faca{
+    escreva("Digite o nome da sua função: ")
+    leia(nome)
+
+    nome = converter_para_minusculas(nome)
+    se (nome != "admin" e nome != "gerente" e nome != "funcionario"){
+      escreva("Inválido \n")
+      
+
+
+    }
+    }enquanto(nome != "admin" e nome != "gerente" e nome != "funcionario")
+
+    escolha(nome){
+      caso "Admin":
+      caso "ADMIN":
+      caso "admin":
+      escreva("Nível de acesso 3 (Acesso completo)")
+      pare
+
+      caso "gerente":
+      caso "GERENTE":
+      caso "Gerente":
+      escreva("Nível de acesso 2 (Acesso limitado, mas pode gerenciar usuários) ")
+      pare
+
+      caso "funcionario":
+      caso "FUNCIONARIO":
+      caso "Funcionario":
+      escreva("Nível de acesso 1 (Acesso restrito, apenas pode consultar informações) ")
+      pare
+
+      
+      
+      
+    }
+
+    
+  }
+}
+
+
+13 - //Escolher a categoria de um produto
+//O usuário deve informar o valor de um produto e o
+// programa deve retornar a categoria do produto de acordo com a tabela:
+//Menor que 50: "Econômico"
+//Entre 50 e 150: "Médio"
+//Maior que 150: "Premium"
+
+programa {
+  funcao inicio() {
+    real valor
+
+    escreva("Digite o valor do produto: ")
+    leia(valor)
+
+    escolha(valor){
+      caso valor < 50:
+      escreva("Econômico")
+
+      caso valor >= 50:
+      caso valor <= 150:
+      ecreva("Médio")
+
+      caso valor > 150:
+      escreva("Premium")
+
+
+    }
+  }
+}
+
+14 - //A: Para notas entre 9.0 e 10.0.
+//B: Para notas entre 7.0 e 8.9.
+//C: Para notas entre 5.0 e 6.9.
+//D: Para notas entre 3.0 e 4.9.
+//E: Para notas entre 0.0 e 2.9.
+programa {
+  funcao inicio() {
+    real nota
+    
+
+    escreva("Digite sua nota: ") 
+    leia(nota)
+
+
+    escolha (nota){
+      caso nota >= 9 e nota <= 10:
+      escreva("A")
+
+      caso nota >= 7 e nota <= 8.9:
+      escreva("B")
+
+      caso nota >= 5 e nota <= 6.9:
+      escreva("C")
+
+      caso nota >= 3 e nota <= 4.9:
+      escreva("D")
+
+      caso nota >= 0 e nota <= 2.9:
+      escreva("E")
+
+
+    }
+
+    
+
+
+  }
+}
+
+
+15 - //Calculadora de IMC
+//Solicite ao usuário seu peso e altura e calcule o IMC. De acordo com o valor do IMC, classifique:
+//Menor que 18.5: "Abaixo do peso"
+//Entre 18.5 e 24.9: "Peso normal"
+//Entre 25 e 29.9: "Sobrepeso"
+//Maior que 30: "Obesidade"
+
+programa {
+  funcao inicio() {
+    real peso, altura, imc
+
+    escreva("Digite seu peso: ")
+    leia(peso)
+    escreva("Digite sua altura: ")
+    leia(altura)
+    altura = altura * altura
+    imc = peso / altura
+    escreva(imc, "\n")
+
+    se (imc < 18.5){
+      
+      escreva("Abaixo do peso")
+    }
+    senao se (imc >= 18.5 e imc <= 24.9){
+      escreva("Peso Normal")
+    }
+    senao se (imc >= 25 e imc <= 29.9){
+      escreva("Sobrepeso")
+    }
+    senao se (imc > 30){
+      escreva("Obeso")
+    }
+
+  }
+}
+
+
+16 - //Peça ao usuário para inserir a temperatura em graus Celsius. 
+//Com base no valor informado, o programa deve classificar a 
+//temperatura em uma das seguintes categorias:
+//Muito Frio: Menor que 0°C.
+//Frio: De 0°C a 15°C.
+//Ameno: De 16°C a 25°C.
+//Quente: De 26°C a 35°C.
+//Muito Quente: Maior que 35°C.
+programa {
+  funcao inicio() {
+    real celsius
+
+    escreva("Temperatura em Celcius: ")
+    leia(celsius)
+
+    escolha(celsius){
+      caso celsius < 0:
+      escreva("Muito frio ")
+      pare
+
+      caso celsius >= 0 e celsius <= 15:
+      escreva("Frio")
+      pare
+
+      caso celsius >= 16 e celsius <= 25:
+      escreva("Ameno")
+
+      caso celsius >= 26 e celsius <= 35:
+      escreva("Quente")
+
+      caso celsius > 35:
+      escreva("Muito QUENTE")
+
+    }
+
+    
+
+  }
+}
+
+
+17 - //Determinar o vencedor de uma eleição
+//Solicite ao usuário o número de votos para três candidatos 
+//e determine qual candidato obteve a maior quantidade de votos, 
+//considerando que pode haver empate
+
+
+
+programa {
+  funcao inicio() {
+    inteiro numero
+    cadeia c1, c2, c3, nu1, nu2, nu3
+
+    escreva("Nome do candidato um: ")
+    leia(c1)
+    escreva("Numero de votos candidato ", c1, ":")
+    leia(nu1)
+    limpa()
+
+    escreva("Nome do candidato dois: ")
+    leia(c2)
+    escreva("Numero de votos candidato ", c2, ":")
+    leia(nu2)
+    limpa()
+
+    escreva("Nome do candidato três: ")
+    leia(c3)
+    escreva("Numero de votos candidato ", c3, ":")
+    leia(nu3)
+    limpa()
+
+    se(nu1 == nu2 e nu2 == nu3){
+      escreva("EMPATE")
+    }senao se (nu1 > nu2){
+      se(nu1 > nu3){
+        escreva("Candidato ", c1, " é o Vencedor")
+      }
+    }senao se (nu2 > nu3){
+      se (nu2 > nu1){
+        escreva("Candidato ", c2, " é o Vencedor")
+      }
+    }senao{
+      escreva("Candidato ", c3, " é o Vencedor")
+    }
+
+
+
+
+  }
+}
+
+18 - //Peça ao usuário para inserir um número inteiro. 
+//O programa deve verificar se o número é par ou ímpar e positivo ou negativo, 
+//e então exibir uma mensagem com essas classificações. Se o número for igual a zero, 
+//o programa deve indicar que é zero, que não é nem positivo nem negativo, nem par nem ímpar.
+
+programa {
+  funcao inicio() {
+    
+    inteiro numero
+
+    escreva("Digite um número: ")
+    leia(numero)
+
+    se (numero %2 == 0){
+      escreva("PAR\n") 
+    }
+    senao{
+      escreva("IMPAR")
+      
+    }
+    se(numero < 0){
+      escreva("Negativo")
+    }senao se (numero > 0){
+        escreva("Positiva")  
+    }senao{
+      escreva("ZERO")
+    }
+
+    
+  }
+}
 
 
 
