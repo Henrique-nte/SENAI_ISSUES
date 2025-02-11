@@ -546,6 +546,50 @@ programa {
   }
 }
 
+6 - //Crie um programa que calcule o desconto a ser aplicado em uma compra. 
+//O usuário deve informar o valor total da compra e o tipo de cliente 
+//(Regular, VIP ou Funcionário). As regras para o desconto são:
+//Regular: 0% de desconto
+//VIP: 10% de desconto
+//Funcionário: 20% de desconto
+
+programa {
+  funcao inicio() {
+    real total, desconto = -1
+    cadeia tipo
+
+   escreva("Digite o valor total da compra: ")
+   leia(total)
+
+   escreva("regular/vip/funcionario \n")
+   escreva("Digite o tipo de cliente: ")
+   leia(tipo)
+
+   escolha (tipo){
+    caso "regular":
+    caso "Regular":
+    caso "REGULAR":
+    desconto = 0
+    pare
+
+    caso "VIP":
+    caso "vip":
+    caso "Vip":
+    desconto = total * 0.10
+
+    caso "Funcionario":
+    caso "FUNCIONARIO":
+    caso "funcionario":
+    desconto = total * 0.20
+
+   }
+    total = total - desconto
+    escreva("Valor final: ", total)
+
+  }
+}
+
+
 
 
 
