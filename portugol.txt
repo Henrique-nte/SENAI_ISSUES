@@ -938,7 +938,7 @@ programa {
   }
 }
 
-18 - //Peça ao usuário para inserir um número inteiro. 
+18 -//Peça ao usuário para inserir um número inteiro. 
 //O programa deve verificar se o número é par ou ímpar e positivo ou negativo, 
 //e então exibir uma mensagem com essas classificações. Se o número for igual a zero, 
 //o programa deve indicar que é zero, que não é nem positivo nem negativo, nem par nem ímpar.
@@ -951,21 +951,30 @@ programa {
     escreva("Digite um número: ")
     leia(numero)
 
-    se (numero %2 == 0){
-      escreva("PAR\n") 
-    }
-    senao{
-      escreva("IMPAR")
+    se(numero == 0){
+      escreva("ZERO\n")
+      escreva("Não é positivo nem negativo, nem par nem ímpar")
+    }senao{
+
+      se (numero %2 == 0){
+      escreva("PAR \n")
+      }
+
+      se (numero %2 != 0){
+        escreva("IMPAR \n")
+      
+      }
+    
+      se (numero < 0){
+      escreva("NEGATIVO")
+      
+      }
+      se (numero > 0){
+      escreva("POSITIVO")
+      
+      }
       
     }
-    se(numero < 0){
-      escreva("Negativo")
-    }senao se (numero > 0){
-        escreva("Positiva")  
-    }senao{
-      escreva("ZERO")
-    }
-
     
   }
 }
