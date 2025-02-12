@@ -888,53 +888,95 @@ programa {
 }
 
 
-17 - //Determinar o vencedor de uma eleição
+17 -  //Determinar o vencedor de uma eleição
 //Solicite ao usuário o número de votos para três candidatos 
 //e determine qual candidato obteve a maior quantidade de votos, 
 //considerando que pode haver empate
-
-
 
 programa {
   funcao inicio() {
     inteiro numero
     cadeia c1, c2, c3, nu1, nu2, nu3
+    inteiro bolsonaro = 0, lula = 0, ciro = 0, ncandidato, n = 0, contador = 0
 
-    escreva("Nome do candidato um: ")
-    leia(c1)
-    escreva("Numero de votos candidato ", c1, ":")
-    leia(nu1)
-    limpa()
+    escreva("Quantidade de votantes: ")
+    leia(n)
+    enquanto (n > contador)
+      faca{
+      escreva("CANDIDATOS:\nLULA(13)\nBOLSONARO (22)\nCIRO (12)\n")
+      escreva("Digite o numero do candidato que você deseja votar: ")
+      leia(ncandidato)
+      limpa()
 
-    escreva("Nome do candidato dois: ")
-    leia(c2)
-    escreva("Numero de votos candidato ", c2, ":")
-    leia(nu2)
-    limpa()
-
-    escreva("Nome do candidato três: ")
-    leia(c3)
-    escreva("Numero de votos candidato ", c3, ":")
-    leia(nu3)
-    limpa()
-
-    se(nu1 == nu2 e nu2 == nu3){
-      escreva("EMPATE")
-    }senao se (nu1 > nu2){
-      se(nu1 > nu3){
-        escreva("Candidato ", c1, " é o Vencedor")
+      se (ncandidato != 22 e ncandidato != 13 e ncandidato != 12 ){
+        limpa()
+        escreva("Número de candidato inválido! \n")
+        
+      }senao{
+        contador += 1
       }
-    }senao se (nu2 > nu3){
-      se (nu2 > nu1){
-        escreva("Candidato ", c2, " é o Vencedor")
+
+      se (ncandidato == 22){
+        bolsonaro += 1
       }
-    }senao{
-      escreva("Candidato ", c3, " é o Vencedor")
+      
+      se (ncandidato == 13){
+        lula += 1
+      }
+      
+      se (ncandidato == 12){
+        ciro += 1
+      }
+      
+      }enquanto(ncandidato != 22 e ncandidato != 13 e ncandidato != 12)
+      
+
+    escreva("Visão geral:\n")
+    escreva("--------------------------------------\n")
+    escreva("Candidato           VOTOS\n")
+    escreva("--------------------------------------\n")
+    
+    // Exibindo os votos na tabela
+    escreva("BOLSONARO", "           VOTOS: ", bolsonaro, "\n")
+    escreva("CIRO", "                VOTOS: ", ciro, "\n")
+    escreva("LULA", "                VOTOS: ", lula, "\n")
+    escreva("--------------------------------------\n")
+
+
+    se(bolsonaro == lula e lula == ciro){
+      escreva("EMPATE TOTAL \n")
+    }senao se(bolsonaro == lula e lula != ciro){
+      escreva("EMPATE ENTRE BOLSONARO E LULA")
+      //escreva("SGUNDO TURNO\n")
+
+      //bolsonaro = 0
+      //lula = 0
+
+    }senao se (bolsonaro != lula e bolsonaro == ciro){
+      escreva("EMPATE ENTRE BOLSONARO E CIRO")
+    }senao se(ciro == lula e lula != bolsonaro){
+      escreva("EMPATE ENTRE CIRO E LULA")
+    }
+    
+    senao se (bolsonaro > lula){
+      se(bolsonaro > ciro){
+        escreva("Candidato BOLSONARO (22) É O VENCEDOR \n")
+      }
     }
 
 
+    senao se (ciro > lula){
+      se (ciro > bolsonaro){
+        escreva("Candidato CIRO (12) É O VENCEDOR \n")
+      }
+    }
+    
+    senao
+    {
+      escreva("Candidato LULA (13) É O VENCEDOR \n")
+    }
 
-
+  
   }
 }
 
