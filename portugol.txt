@@ -1021,6 +1021,119 @@ programa {
   }
 }
 
+19 - //As vendas parceladas se tornaram uma ótima opção para os lojistas, 
+//que a cada dia criam novas promoções para tentar conquistar novos clientes. 
+//Faça um programa onde o lojista possa entrar com o preço do produto e receba as 
+//seguintes informações:
+//O valor com 10% de desconto para pagamento à vista   
+//O valor da prestação para parcelamento sem juros, em 5x
+//O valor da prestação para parcelamento com juros, em 10x, com 20% de acréscimo no valor do produto.
+
+programa {
+  funcao inicio() {
+    real preco, avista, juros, total, desconto, decisao, com, sem
+
+    escreva("('1') para comprar à vista \n")
+    escreva("('2') para parcelamento sem juros, em 5x \n")
+    escreva("('3') para parcelamento com juros, em 10x, com 20% de juros.\n")
+
+    faca{
+    escreva("Escolha uma opção:")
+    leia(decisao)
+    
+    se (decisao != 1 e decisao != 2 e decisao != 3){
+      escreva("Número inválido!\n")
+      
+    }
+    }enquanto(decisao != 1 e decisao != 2 e decisao != 3)
+    escreva("Digite o preço do produto: \n")
+    leia(preco)
+
+    se(decisao == 1){
+    desconto = preco * 0.10
+    total = preco - desconto
+    escreva("Preço a vista com desconto: R$", total, "\n")
+    }
+    senao se (decisao == 2) {
+    sem = preco / 5
+    escreva("Valor da prestação para parcelamento sem juros em 5x: R$", sem, "\n")
+    }
+    senao se (decisao == 3) {
+    juros = preco * 0.20
+    total = preco + juros
+    com = preco / 10
+    escreva("Preço parcelamento com juros, em 10x: R$", com)
+    }
+
+    
+    
+    
+    
+  }
+}
+
+
+20 - //Faça um programa que leia o seu peso na Terra e o número de um planeta, 
+//e calcule qual será o seu peso neste planeta. A relação de planetas é:
+programa{
+  funcao inicio(){
+    real pesoterra, decisao, pesoplaneta
+
+    escreva("Digite seu peso: ")
+    leia(pesoterra)
+
+    faca{
+    escreva("Nº	Planeta	\n")
+    escreva("1 - Mercúrio\n")
+    escreva("2 - Vênus	\n")
+    escreva("3 - Marte	\n")
+    escreva("4 - Júpiter	\n")
+    escreva("5 - Saturno	\n")
+    escreva("6 - Urano	\n")
+    escreva("Escolha uma opção para descobrir \nseu peso neste planeta:")
+    leia(decisao)
+
+    se (decisao != 1 e decisao != 2 e decisao != 3 e decisao != 4 e decisao != 5 e decisao != 6){
+      limpa()
+      escreva("Número inválido!\n")
+      
+    }
+    }enquanto(decisao != 1 e decisao != 2 e decisao != 3 e decisao != 4 e decisao != 5 e decisao != 6)
+    
+
+    escolha(decisao){
+      caso 1:
+      pesoplaneta = (pesoterra / 10) * 0.37
+      pare 
+
+      caso 2:
+      pesoplaneta = (pesoterra / 10) * 0.88
+      pare
+
+      caso 3:
+      pesoplaneta = (pesoterra / 10) * 0.38
+      pare
+
+      caso 4:
+      pesoplaneta = (pesoterra / 10) * 2.64
+      pare
+
+      caso 5:
+      pesoplaneta = (pesoterra / 10) * 1.15
+      pare
+
+      caso 6:
+      pesoplaneta = (pesoterra / 10) * 1.17
+      pare
+
+    }
+
+    escreva("Seu peso no planeta é:  ", pesoplaneta)
+  
+  }
+}
+
+//Peso No Planeta = (Peso Na Terra / 10) x Gravidade
 
 
 
