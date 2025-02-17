@@ -750,7 +750,7 @@
         <mxCell id="-nDuluZB18oui_9ilm64-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-36" target="-nDuluZB18oui_9ilm64-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-36" value="TotalParcelas = ValorProduto / 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-36" value="TotalParcelas = ValorProduto / Parcelas" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="450" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-38" target="-nDuluZB18oui_9ilm64-36">
