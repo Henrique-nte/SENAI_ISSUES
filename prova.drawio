@@ -615,7 +615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lCBaIlVgH23f50M7735P" name="4">
-    <mxGraphModel dx="1483" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,7 +720,7 @@
         <mxCell id="-nDuluZB18oui_9ilm64-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-28" target="-nDuluZB18oui_9ilm64-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-28" value="TotalParcelas = (ValorProduto + acréscimo) / 6" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-28" value="TotalParcelas = (ValorProduto + acréscimo) / 3" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-30" target="-nDuluZB18oui_9ilm64-13">
@@ -738,7 +738,7 @@
         <mxCell id="-nDuluZB18oui_9ilm64-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-32" target="-nDuluZB18oui_9ilm64-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-32" value="TotalParcelas = (ValorProduto + acréscimo) / 12" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-32" value="TotalParcelas = (ValorProduto + acréscimo) / 5" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-34" target="-nDuluZB18oui_9ilm64-13">
