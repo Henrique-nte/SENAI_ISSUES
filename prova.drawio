@@ -615,27 +615,165 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lCBaIlVgH23f50M7735P" name="4">
-    <mxGraphModel dx="916" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zpI69QmgkTldzAM-xwck-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;A partir do preço à vista de um&lt;br&gt;     determinado produto, calcular o preço total a pagar e o valor da prestação&lt;br&gt;     mensal, referentes ao pagamento parcelado. Se o pagamento for parcelado em&lt;br&gt;     três vezes, deverá ser dado um acréscimo de 10% no total a ser pago. Se&lt;br&gt;     for parcelado em 5 vezes, o acréscimo é de 20%.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="-30" width="360" height="170" as="geometry" />
+          <mxGeometry x="450" y="-300" width="360" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="zpI69QmgkTldzAM-xwck-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpI69QmgkTldzAM-xwck-3" target="zpI69QmgkTldzAM-xwck-5">
+        <mxCell id="-nDuluZB18oui_9ilm64-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-2" target="-nDuluZB18oui_9ilm64-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpI69QmgkTldzAM-xwck-3" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-30" width="100" height="60" as="geometry" />
+        <mxCell id="-nDuluZB18oui_9ilm64-2" value="INÍCIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p_UoBrfhPGprKAMSgvZA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpI69QmgkTldzAM-xwck-5" target="p_UoBrfhPGprKAMSgvZA-1">
+        <mxCell id="-nDuluZB18oui_9ilm64-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-4" target="-nDuluZB18oui_9ilm64-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpI69QmgkTldzAM-xwck-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor à vista&lt;br&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="200" y="50" width="100" height="60" as="geometry" />
+        <mxCell id="-nDuluZB18oui_9ilm64-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Valor do Produto" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-140" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="p_UoBrfhPGprKAMSgvZA-1" value="Deseja parcelar o produto?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="190" y="150" width="120" height="120" as="geometry" />
+        <mxCell id="-nDuluZB18oui_9ilm64-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-8" target="-nDuluZB18oui_9ilm64-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-8" target="-nDuluZB18oui_9ilm64-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-7" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-nDuluZB18oui_9ilm64-6">
+          <mxGeometry x="-0.0889" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-8" value="Pagamento Parcelado?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-10" target="-nDuluZB18oui_9ilm64-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-10" value="Total = Valor do Produto" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-12" target="-nDuluZB18oui_9ilm64-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="380" />
+              <mxPoint x="950" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-12" value="Total" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="205" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="900" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-18" target="-nDuluZB18oui_9ilm64-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-15" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-nDuluZB18oui_9ilm64-14">
+          <mxGeometry x="-0.2762" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-18" target="-nDuluZB18oui_9ilm64-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-17" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-nDuluZB18oui_9ilm64-16">
+          <mxGeometry x="-0.2494" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ParcelaDesejada&amp;nbsp;&lt;/font&gt;&lt;div&gt;== 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-60" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-20" target="-nDuluZB18oui_9ilm64-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-20" value="acréscimo = (15 /100) * ValorProduto" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-21" value="V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-24" target="-nDuluZB18oui_9ilm64-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-24" target="-nDuluZB18oui_9ilm64-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.9999999999999" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-23" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-nDuluZB18oui_9ilm64-22">
+          <mxGeometry x="-0.3204" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-24" value="ParcelaDesejada == 12" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="460" y="90" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-26" target="-nDuluZB18oui_9ilm64-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-26" value="acréscimo = (25 / 100)&lt;div&gt;* ValorProduto&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-28" target="-nDuluZB18oui_9ilm64-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-28" value="TotalParcelas = (ValorProduto + acréscimo) / 6" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-30" target="-nDuluZB18oui_9ilm64-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160.0000000000005" y="10" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1046.15" y="-10" />
+              <mxPoint x="1046.15" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-30" value="TotalParcelas" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-32" target="-nDuluZB18oui_9ilm64-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-32" value="TotalParcelas = (ValorProduto + acréscimo) / 12" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-34" target="-nDuluZB18oui_9ilm64-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160.0000000000005" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-34" value="TotalParcelas" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="930" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-36" target="-nDuluZB18oui_9ilm64-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-36" value="TotalParcelas = ValorProduto / Parcelas" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-38" target="-nDuluZB18oui_9ilm64-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-38" value="Parcelas = ParcelaDesejada" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-40" target="-nDuluZB18oui_9ilm64-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-40" value="TotalParcelas" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-42" target="-nDuluZB18oui_9ilm64-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-nDuluZB18oui_9ilm64-42" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Em quantas vezes você deseja parcelar?&lt;/font&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
