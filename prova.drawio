@@ -400,32 +400,71 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvVYb31PndAitQJ7KshJ-1" target="YH0FsMz6SMr1sI9yK0-D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GvVYb31PndAitQJ7KshJ-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="180" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;Elabore um fluxograma para um&lt;br&gt;     sistema que registra vendas de produtos. O programa deve permitir ao&lt;br&gt;     vendedor inserir o nome do produto, a quantidade e o preço unitário. Em&lt;br&gt;     seguida, deve-se calcular o valor total da venda. O programa deve&lt;br&gt;     perguntar se o vendedor deseja registrar outra venda e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="710" y="170" width="480" height="160" as="geometry" />
+          <mxGeometry x="670" y="180" width="480" height="160" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-2" target="YH0FsMz6SMr1sI9yK0-D-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do produto&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="380" y="310" width="100" height="60" as="geometry" />
+          <mxGeometry x="380" y="320" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-4" target="YH0FsMz6SMr1sI9yK0-D-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantidade&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="100" height="60" as="geometry" />
+          <mxGeometry x="380" y="400" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-6" target="YH0FsMz6SMr1sI9yK0-D-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Preço unitário&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="380" y="480" width="100" height="60" as="geometry" />
+          <mxGeometry x="380" y="490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-8" target="YH0FsMz6SMr1sI9yK0-D-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-8" value="Total = quantidade * precounitario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-10" target="YH0FsMz6SMr1sI9yK0-D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="260" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-18" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YH0FsMz6SMr1sI9yK0-D-17">
+          <mxGeometry x="-0.2867" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-21" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YH0FsMz6SMr1sI9yK0-D-20">
+          <mxGeometry x="-0.1221" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-14" value="Deseja registrar outra venda?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-16" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
