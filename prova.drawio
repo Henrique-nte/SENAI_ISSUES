@@ -406,9 +406,6 @@
         <mxCell id="GvVYb31PndAitQJ7KshJ-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;Elabore um fluxograma para um&lt;br&gt;     sistema que registra vendas de produtos. O programa deve permitir ao&lt;br&gt;     vendedor inserir o nome do produto, a quantidade e o preço unitário. Em&lt;br&gt;     seguida, deve-se calcular o valor total da venda. O programa deve&lt;br&gt;     perguntar se o vendedor deseja registrar outra venda e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="370" width="480" height="160" as="geometry" />
-        </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-2" target="YH0FsMz6SMr1sI9yK0-D-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -473,6 +470,9 @@
         </mxCell>
         <mxCell id="YH0FsMz6SMr1sI9yK0-D-22" value="Total" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="530" y="390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-28" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;Elabore um fluxograma para um&lt;br&gt;     sistema que registra vendas de produtos. O programa deve permitir ao&lt;br&gt;     vendedor inserir o nome do produto, a quantidade e o preço unitário. Em&lt;br&gt;     seguida, deve-se calcular o valor total da venda. O programa deve&lt;br&gt;     perguntar se o vendedor deseja registrar outra venda e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="340" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
