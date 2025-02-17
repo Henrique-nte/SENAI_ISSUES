@@ -478,21 +478,58 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cyOx2fYJW-ySkXfi1PeZ" name="2">
-    <mxGraphModel dx="1696" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1630" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4xUk8KkESar3cGra_lzE-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br/&gt;     para um programa que gerencie o empréstimo de livros. O programa deve&lt;br/&gt;     permitir ao usuário solicitar um livro, verificar se o livro está&lt;br/&gt;     disponível, se o livro estiver disponível e exibir uma mensagem de erro se&lt;br/&gt;     não estiver. O programa deve encerrar após o registro do empréstimo ou a&lt;br/&gt;     exibição da mensagem de erro.&lt;/span&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Arial&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="10" width="350" height="210" as="geometry" />
+          <mxGeometry x="-90" y="70" width="350" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4xUk8KkESar3cGra_lzE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-2" target="4xUk8KkESar3cGra_lzE-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4xUk8KkESar3cGra_lzE-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="330" y="30" width="100" height="60" as="geometry" />
+          <mxGeometry x="330" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-3" target="4xUk8KkESar3cGra_lzE-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4xUk8KkESar3cGra_lzE-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do livro&lt;br&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="330" y="110" width="100" height="60" as="geometry" />
+          <mxGeometry x="330" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-16" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4xUk8KkESar3cGra_lzE-10">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-17" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4xUk8KkESar3cGra_lzE-12">
+          <mxGeometry x="-0.56" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-7" value="Livro disponível" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-9" target="4xUk8KkESar3cGra_lzE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Livro disponíve, empréstimo realizado &lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-11" target="4xUk8KkESar3cGra_lzE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-11" value="Erro, livro não disponível" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4xUk8KkESar3cGra_lzE-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
