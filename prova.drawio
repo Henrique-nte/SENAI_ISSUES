@@ -619,6 +619,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zpI69QmgkTldzAM-xwck-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;A partir do preço à vista de um&lt;br&gt;     determinado produto, calcular o preço total a pagar e o valor da prestação&lt;br&gt;     mensal, referentes ao pagamento parcelado. Se o pagamento for parcelado em&lt;br&gt;     três vezes, deverá ser dado um acréscimo de 10% no total a ser pago. Se&lt;br&gt;     for parcelado em 5 vezes, o acréscimo é de 20%.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="30" width="440" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
