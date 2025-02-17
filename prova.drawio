@@ -478,15 +478,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cyOx2fYJW-ySkXfi1PeZ" name="2">
-    <mxGraphModel dx="758" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1696" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4xUk8KkESar3cGra_lzE-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br/&gt;     para um programa que gerencie o empréstimo de livros. O programa deve&lt;br/&gt;     permitir ao usuário solicitar um livro, verificar se o livro está&lt;br/&gt;     disponível, se o livro estiver disponível e exibir uma mensagem de erro se&lt;br/&gt;     não estiver. O programa deve encerrar após o registro do empréstimo ou a&lt;br/&gt;     exibição da mensagem de erro.&lt;/span&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Arial&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="100" width="500" height="160" as="geometry" />
+          <mxGeometry x="-90" y="10" width="350" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="170" y="150" width="100" height="60" as="geometry" />
+        <mxCell id="4xUk8KkESar3cGra_lzE-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="313" y="50" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
