@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="26.0.14" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="26.0.14" pages="8">
   <diagram name="1" id="5dE94d4r-sCJyBhKH_mc">
     <mxGraphModel dx="1055" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -530,6 +530,32 @@
         </mxCell>
         <mxCell id="4xUk8KkESar3cGra_lzE-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="480" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i4WbgueOzjwZ24Zi2HG_" name="3">
+    <mxGraphModel dx="268" dy="154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br/&gt;     para um programa que calcule o imposto devido com base no valor da compra.&lt;br/&gt;     O programa deve solicitar o valor da compra e a taxa de imposto, calcular&lt;br/&gt;     o imposto, e exibir o valor total a ser pago. O programa deve perguntar se&lt;br/&gt;     o usuário deseja calcular o imposto para outra compra e repetir o processo&lt;br/&gt;     se necessário.&lt;/span&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;     mso-fareast-font-family:Arial&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-2" target="Y-htQPgQyj18bTdB9KHy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="125" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-4" target="Y-htQPgQyj18bTdB9KHy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor da compra&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
