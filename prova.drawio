@@ -396,55 +396,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PSH1U6TJ121goV2uPyPD" name="1">
-    <mxGraphModel dx="1395" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GvVYb31PndAitQJ7KshJ-1" target="YH0FsMz6SMr1sI9yK0-D-10">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GvVYb31PndAitQJ7KshJ-1" target="YH0FsMz6SMr1sI9yK0-D-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GvVYb31PndAitQJ7KshJ-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="380" y="110" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-2" target="YH0FsMz6SMr1sI9yK0-D-4">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-2" target="YH0FsMz6SMr1sI9yK0-D-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do produto&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do produto&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="380" y="320" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-4" target="YH0FsMz6SMr1sI9yK0-D-6">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-4" target="YH0FsMz6SMr1sI9yK0-D-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantidade&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Quantidade&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="380" y="400" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-6" target="YH0FsMz6SMr1sI9yK0-D-8">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-6" target="YH0FsMz6SMr1sI9yK0-D-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Preço unitário&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Preço unitário&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="380" y="490" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-8" target="YH0FsMz6SMr1sI9yK0-D-22">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-8" target="YH0FsMz6SMr1sI9yK0-D-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-8" value="Total = quantidade * precounitario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-8" value="Total = quantidade * precounitario" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-10" target="YH0FsMz6SMr1sI9yK0-D-2">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-10" target="YH0FsMz6SMr1sI9yK0-D-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="410" y="230" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-16">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-18" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YH0FsMz6SMr1sI9yK0-D-17">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-18" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YH0FsMz6SMr1sI9yK0-D-17" vertex="1" connectable="0">
           <mxGeometry x="-0.2867" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-10">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-14" target="YH0FsMz6SMr1sI9yK0-D-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="250" as="targetPoint" />
             <Array as="points">
@@ -452,81 +452,81 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-21" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YH0FsMz6SMr1sI9yK0-D-20">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-21" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YH0FsMz6SMr1sI9yK0-D-20" vertex="1" connectable="0">
           <mxGeometry x="-0.1221" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-14" value="Deseja registrar outra venda?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-14" value="Deseja registrar outra venda?" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="530" y="260" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-16" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-16" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="700" y="280" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YH0FsMz6SMr1sI9yK0-D-22" target="YH0FsMz6SMr1sI9yK0-D-14">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YH0FsMz6SMr1sI9yK0-D-22" target="YH0FsMz6SMr1sI9yK0-D-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-22" value="Total" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-22" value="Total" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="530" y="390" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YH0FsMz6SMr1sI9yK0-D-28" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;Elabore um fluxograma para um&lt;br&gt;     sistema que registra vendas de produtos. O programa deve permitir ao&lt;br&gt;     vendedor inserir o nome do produto, a quantidade e o preço unitário. Em&lt;br&gt;     seguida, deve-se calcular o valor total da venda. O programa deve&lt;br&gt;     perguntar se o vendedor deseja registrar outra venda e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YH0FsMz6SMr1sI9yK0-D-28" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;Elabore um fluxograma para um&lt;br&gt;     sistema que registra vendas de produtos. O programa deve permitir ao&lt;br&gt;     vendedor inserir o nome do produto, a quantidade e o preço unitário. Em&lt;br&gt;     seguida, deve-se calcular o valor total da venda. O programa deve&lt;br&gt;     perguntar se o vendedor deseja registrar outra venda e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="827" y="230" width="340" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="cyOx2fYJW-ySkXfi1PeZ" name="2">
-    <mxGraphModel dx="2222" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4xUk8KkESar3cGra_lzE-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br/&gt;     para um programa que gerencie o empréstimo de livros. O programa deve&lt;br/&gt;     permitir ao usuário solicitar um livro, verificar se o livro está&lt;br/&gt;     disponível, se o livro estiver disponível e exibir uma mensagem de erro se&lt;br/&gt;     não estiver. O programa deve encerrar após o registro do empréstimo ou a&lt;br/&gt;     exibição da mensagem de erro.&lt;/span&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Arial&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="70" width="350" height="210" as="geometry" />
+        <mxCell id="4xUk8KkESar3cGra_lzE-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br/&gt;     para um programa que gerencie o empréstimo de livros. O programa deve&lt;br/&gt;     permitir ao usuário solicitar um livro, verificar se o livro está&lt;br/&gt;     disponível, se o livro estiver disponível e exibir uma mensagem de erro se&lt;br/&gt;     não estiver. O programa deve encerrar após o registro do empréstimo ou a&lt;br/&gt;     exibição da mensagem de erro.&lt;/span&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Arial&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br/&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="-20" width="350" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-2" target="4xUk8KkESar3cGra_lzE-3">
+        <mxCell id="4xUk8KkESar3cGra_lzE-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-2" target="4xUk8KkESar3cGra_lzE-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="330" y="20" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-3" target="4xUk8KkESar3cGra_lzE-7">
+        <mxCell id="4xUk8KkESar3cGra_lzE-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-3" target="4xUk8KkESar3cGra_lzE-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do livro&lt;br&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nome do livro&lt;br&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="330" y="100" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-9">
+        <mxCell id="4xUk8KkESar3cGra_lzE-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-16" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4xUk8KkESar3cGra_lzE-10">
+        <mxCell id="4xUk8KkESar3cGra_lzE-16" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4xUk8KkESar3cGra_lzE-10" vertex="1" connectable="0">
           <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-11">
+        <mxCell id="4xUk8KkESar3cGra_lzE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-7" target="4xUk8KkESar3cGra_lzE-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-17" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4xUk8KkESar3cGra_lzE-12">
+        <mxCell id="4xUk8KkESar3cGra_lzE-17" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4xUk8KkESar3cGra_lzE-12" vertex="1" connectable="0">
           <mxGeometry x="-0.56" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-7" value="Livro disponível" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-7" value="Livro disponível" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="330" y="190" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-9" target="4xUk8KkESar3cGra_lzE-13">
+        <mxCell id="4xUk8KkESar3cGra_lzE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-9" target="4xUk8KkESar3cGra_lzE-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Livro disponível, empréstimo realizado &lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-9" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Livro disponível, empréstimo realizado &lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="480" y="210" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4xUk8KkESar3cGra_lzE-11" target="4xUk8KkESar3cGra_lzE-13">
+        <mxCell id="4xUk8KkESar3cGra_lzE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4xUk8KkESar3cGra_lzE-11" target="4xUk8KkESar3cGra_lzE-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-11" value="Erro, livro não disponível" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-11" value="Erro, livro não disponível" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="330" y="340" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4xUk8KkESar3cGra_lzE-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="4xUk8KkESar3cGra_lzE-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="480" y="340" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
