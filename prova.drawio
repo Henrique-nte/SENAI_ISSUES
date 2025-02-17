@@ -533,64 +533,64 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i4WbgueOzjwZ24Zi2HG_" name="3">
-    <mxGraphModel dx="1186" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br&gt;     para um programa que calcule o imposto devido com base no valor da compra.&lt;br&gt;     O programa deve solicitar o valor da compra e a taxa de imposto, calcular&lt;br&gt;     o imposto, e exibir o valor total a ser pago. O programa deve perguntar se&lt;br&gt;     o usuário deseja calcular o imposto para outra compra e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="50" width="310" height="210" as="geometry" />
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;margin-top:12.0pt;margin-bottom:12.0pt;line-height:&lt;br/&gt;     normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;font-family:&lt;br/&gt;     Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:Roboto;&lt;br/&gt;     color:#5F6368;background:white;mso-highlight:white&quot;&gt;Crie um fluxograma&lt;br&gt;     para um programa que calcule o imposto devido com base no valor da compra.&lt;br&gt;     O programa deve solicitar o valor da compra e a taxa de imposto, calcular&lt;br&gt;     o imposto, e exibir o valor total a ser pago. O programa deve perguntar se&lt;br&gt;     o usuário deseja calcular o imposto para outra compra e repetir o processo&lt;br&gt;     se necessário.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="80" width="310" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-2" target="Y-htQPgQyj18bTdB9KHy-4">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-2" target="Y-htQPgQyj18bTdB9KHy-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="125" y="100" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-4" target="Y-htQPgQyj18bTdB9KHy-6">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-4" target="Y-htQPgQyj18bTdB9KHy-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" parent="1" vertex="1">
           <mxGeometry x="150" y="190" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-6" target="Y-htQPgQyj18bTdB9KHy-9">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-6" target="Y-htQPgQyj18bTdB9KHy-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor da compra&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-6" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor da compra&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="120" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-9" target="Y-htQPgQyj18bTdB9KHy-11">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-9" target="Y-htQPgQyj18bTdB9KHy-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-9" value="&lt;br&gt;&lt;div&gt;Taxa de imposto&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-9" value="&lt;br&gt;&lt;div&gt;Taxa de imposto&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="120" y="330" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-11" target="Y-htQPgQyj18bTdB9KHy-13">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-11" target="Y-htQPgQyj18bTdB9KHy-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-11" value="imposto = valor * (taxa / 100) " style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-11" value="imposto = valor * (taxa / 100) " style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="110" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-13" target="Y-htQPgQyj18bTdB9KHy-15">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-13" target="Y-htQPgQyj18bTdB9KHy-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-13" value="ValorTotal = valor + imposto" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-13" value="ValorTotal = valor + imposto" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" parent="1" vertex="1">
           <mxGeometry x="110" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-15" target="Y-htQPgQyj18bTdB9KHy-17">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-15" target="Y-htQPgQyj18bTdB9KHy-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-15" value="ValorTotal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-15" value="ValorTotal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="265" y="510" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-17" target="Y-htQPgQyj18bTdB9KHy-19">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Y-htQPgQyj18bTdB9KHy-17" target="Y-htQPgQyj18bTdB9KHy-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-24" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y-htQPgQyj18bTdB9KHy-20">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-24" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y-htQPgQyj18bTdB9KHy-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2727" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y-htQPgQyj18bTdB9KHy-17" target="Y-htQPgQyj18bTdB9KHy-4">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y-htQPgQyj18bTdB9KHy-17" target="Y-htQPgQyj18bTdB9KHy-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="215" as="targetPoint" />
             <Array as="points">
@@ -598,15 +598,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-23" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y-htQPgQyj18bTdB9KHy-22">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-23" value="V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y-htQPgQyj18bTdB9KHy-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0037" y="-2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Deseja calcular o imposto para outra compra&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Deseja calcular o imposto para outra compra&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="260" y="290" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Y-htQPgQyj18bTdB9KHy-19" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="Y-htQPgQyj18bTdB9KHy-19" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="430" y="315" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
