@@ -615,12 +615,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lCBaIlVgH23f50M7735P" name="4">
-    <mxGraphModel dx="1248" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="1747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zpI69QmgkTldzAM-xwck-1" value="&lt;ol type=&quot;1&quot; start=&quot;1&quot; style=&quot;margin-top:0cm&quot;&gt;&lt;li style=&quot;color:#5F6368;margin-bottom:0cm;margin-bottom:.0001pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&lt;br/&gt;     font-family:Roboto;mso-fareast-font-family:Roboto;mso-bidi-font-family:&lt;br/&gt;     Roboto;background:white;mso-highlight:white&quot;&gt;A partir do preço à vista de um&lt;br&gt;     determinado produto, calcular o preço total a pagar e o valor da prestação&lt;br&gt;     mensal, referentes ao pagamento parcelado. Se o pagamento for parcelado em&lt;br&gt;     três vezes, deverá ser dado um acréscimo de 10% no total a ser pago. Se&lt;br&gt;     for parcelado em 5 vezes, o acréscimo é de 20%.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-300" width="360" height="170" as="geometry" />
+          <mxGeometry x="480" y="-250" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-2" target="-nDuluZB18oui_9ilm64-4">
           <mxGeometry relative="1" as="geometry" />
@@ -660,7 +660,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="390" />
-              <mxPoint x="950" y="390" />
+              <mxPoint x="980" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -668,7 +668,7 @@
           <mxGeometry x="200" y="205" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-13" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="900" y="310" width="100" height="60" as="geometry" />
+          <mxGeometry x="930" y="310" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-18" target="-nDuluZB18oui_9ilm64-20">
           <mxGeometry relative="1" as="geometry" />
@@ -686,13 +686,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ParcelaDesejada&amp;nbsp;&lt;/font&gt;&lt;div&gt;== 6&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ParcelaDesejada&amp;nbsp;&lt;/font&gt;&lt;div&gt;== 3&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="460" y="-60" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-20" target="-nDuluZB18oui_9ilm64-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-20" value="acréscimo = (15 /100) * ValorProduto" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-20" value="acréscimo = (10 /100) * ValorProduto" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="630" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-21" value="V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-24" target="-nDuluZB18oui_9ilm64-26">
@@ -708,13 +708,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-24" value="ParcelaDesejada == 12" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-24" value="ParcelaDesejada == 5" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="460" y="90" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-26" target="-nDuluZB18oui_9ilm64-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-nDuluZB18oui_9ilm64-26" value="acréscimo = (25 / 100)&lt;div&gt;* ValorProduto&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-nDuluZB18oui_9ilm64-26" value="acréscimo = (20 / 100)&lt;div&gt;* ValorProduto&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="630" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-nDuluZB18oui_9ilm64-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-nDuluZB18oui_9ilm64-28" target="-nDuluZB18oui_9ilm64-30">
