@@ -25,3 +25,5 @@ if tentativa != numero_aleatorio:
   print("Não foi dessa vez, acabaram suas tentaivas.")
   print(f"O número era {numero_aleatorio}")
   
+
+
