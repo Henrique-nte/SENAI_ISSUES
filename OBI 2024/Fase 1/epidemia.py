@@ -10,8 +10,16 @@ n = int(input("Número de pessoas infectadas no dia 0: "))
 r = int(input("O fator reprodutivo R da infecção: "))
 p = int(input("O número alvo de pessoas infectadas: "))
 
+infectados = 0
+contador = 0
+resultado = 0
+dias = 0
+soma = 0
+i = 0
 
-for i in range(p):
-    resultado = (n * r) / p
+while infectados < p:
+    infectados = p * r
+    soma += infectados
+    dias += 1
 
-print(resultado)
+print(dias)
