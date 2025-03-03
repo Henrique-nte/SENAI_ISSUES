@@ -19,7 +19,6 @@ soma_total = 0
 print("1 para sim e 0 para não")
 tv = int(input("Sua TV está ligada?"))
 
-
 while True:
     print("CANAIS\n4, 5, 7, 12")
     canal = int(input("Digite o número do canal (ou 0 para encerrar): "))
