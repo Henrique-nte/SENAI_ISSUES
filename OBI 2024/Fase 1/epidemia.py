@@ -5,11 +5,6 @@
 #Dados o número inicial de pessoas infectadas no dia 0 e o fator reprodutivo R da epidemia, escreva
 #um programa para determinar qual o número de dias necessários para a epidemia infectar P ou
 #mais pessoas no total.
-
-n = int(input("Número de pessoas infectadas no dia 0: "))
-r = int(input("O fator reprodutivo R da infecção: "))
-p = int(input("O número alvo de pessoas infectadas: "))
-
 infectados = 0
 contador = 0
 resultado = 0
@@ -17,9 +12,13 @@ dias = 0
 soma = 0
 i = 0
 
-while infectados < p:
-    infectados = p * r
-    soma += infectados
-    dias += 1
+n = int(input("Número de pessoas infectadas no dia 0: "))
+r = int(input("O fator reprodutivo R da infecção: "))
+p = int(input("O número alvo de pessoas infectadas: "))
 
+while dias < p:
+    dias += n * r
+
+
+print(soma)
 print(dias)
