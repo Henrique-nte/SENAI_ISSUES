@@ -7,9 +7,3 @@ while ze < joao:
     joao += 0.02
     ano += 1
 print(ano)
-
-
-
-
-
-
