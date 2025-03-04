@@ -1,12 +1,14 @@
 estoque = int(input("Número de tamanhos de chinelos no estoque:"))
+t = 0
 i = 0
 j = 0
 efetivado = 0
 
 for i in range (estoque):
+    t += 1
     quantidade = int(input(f"Quantidade para o tamanho {i + 1}:"))
 
-    if i == estoque:
+    if i == t:
         pedidos = int(input("Número de pedidos recebidos pela loja: "))
     
         for j in range(pedidos):
