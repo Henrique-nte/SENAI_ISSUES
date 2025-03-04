@@ -1,22 +1,21 @@
 estoque = int(input("Número de tamanhos de chinelos no estoque:"))
 i = 0
-while i < estoque:
-    
-    i += 1
-    quantidade = int(input(f"Quantidade para o tamanho {i}:"))
-    if i != estoque:
-        continue
-    pedidos = int(input("Número de pedidos recebidos pela loja: "))
-    j = 0
-    while j < pedidos:
-        j +=1
-        efetivado = 0
+j = 0
+efetivado = 0
 
-        tamanho_pedido = int(input(f"O tamanho do chinelo do pedido {j}:"))
-        
-        if tamanho_pedido == quantidade:
-            efetivado += 1
-    if j == pedidos:
-        break
+for i in range (estoque):
+    quantidade = int(input(f"Quantidade para o tamanho {i + 1}:"))
+
+    if i == estoque:
+        pedidos = int(input("Número de pedidos recebidos pela loja: "))
+    
+        for j in range(pedidos):
+            tamanho_pedido = int(input(f"O tamanho do chinelo do pedido {j + 1}:"))
+
+            if tamanho_pedido == quantidade:
+                if quantidade > 0:
+                    efetivado += 1
+                    quantidade -= 1
 
 print(efetivado)
+
