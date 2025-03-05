@@ -11,8 +11,8 @@ for pares in range(1, n + 1):
         
         print(f"{pares}", end=" ")
         
-        
 print()
+
 #primeiros números ímpares
 print("Impares: ", end = "")
 for impares in range(1, n + 1):
