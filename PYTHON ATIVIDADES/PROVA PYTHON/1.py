@@ -9,8 +9,6 @@
 #c.	calcule e escreva o total de candidatos;
 
 
-
-
 total_candidatos = 0
 quantidade_feminino = 0
 curso_maior = 0
