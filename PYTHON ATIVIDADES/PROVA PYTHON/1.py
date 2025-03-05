@@ -14,6 +14,7 @@ curso_maior = 0
 curso = 0
 
 while True:
+    
     numero_candidatos = 0
     porcentagem_feminino = 0
     numero_candidatos = 0
