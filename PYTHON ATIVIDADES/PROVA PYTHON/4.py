@@ -8,7 +8,9 @@ for i in range(5):
     media = soma / 5
 
 print("VISÃO GERAL")
+
 #soma dos números.
 print(f"Soma dos números: {soma}")
+
 #média dos números.
 print(f"Média dos números: {media}")
