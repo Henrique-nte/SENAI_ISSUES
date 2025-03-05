@@ -4,17 +4,19 @@
 #que calcule quantos meses serão necessários para o pagamento total da dívida.
 emprestimo = float(input("Valor do empréstimo: "))
 
-#10% da dívida inicial
+# 10% da dívida inicial
 pagamento = (emprestimo / 100) * 10
 
 mes = 0
-#O banco cobra 3,5% de juros ao mês.
-
 #Calcule quantos meses serão necessários para o pagamento total da dívida.
 while emprestimo > 0:
-        juros = emprestimo * 0.035
-        emprestimo += juros
-        emprestimo -= pagamento  
-        mes += 1
+    juros = emprestimo * 0.035
+    emprestimo += juros
+
+    if pagamento > emprestimo:
+        pagamento = emprestimo
+
+    emprestimo -= pagamento
+    mes += 1
 
 print(f"Mês: {mes}")
