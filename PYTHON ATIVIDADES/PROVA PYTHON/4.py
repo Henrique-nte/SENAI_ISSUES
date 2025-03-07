@@ -5,7 +5,8 @@ media = 0
 for i in range(5):
     numero = int(input(f"Digite o número {i + 1}:"))
     soma += numero
-    media = soma / 5
+
+media = soma / 5
 
 print("VISÃO GERAL")
 
@@ -13,4 +14,4 @@ print("VISÃO GERAL")
 print(f"Soma dos números: {soma}")
 
 #média dos números.
-print(f"Média dos números: {media}")
+print(f"Média dos números: {media:.2f}")
