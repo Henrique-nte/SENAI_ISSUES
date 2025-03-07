@@ -11,14 +11,15 @@
 total_candidatos = 0
 quantidade_feminino = 0
 curso_maior = 0
-curso = 0
+cursos = 0
+maior_numero_candidatos = 0
 
 while True:
     
     numero_candidatos = 0
     porcentagem_feminino = 0
     numero_candidatos = 0
-    maior_numero_candidatos = 0
+    
 
     codigo_curso = int(input("Digite o código do curso ou (0) para encerrar: "))
     
@@ -28,21 +29,29 @@ while True:
         break
     numero_vagas = int(input("Número de vagas: "))
 
+    if numero_vagas <= 0: 
+        print("Erro: O número de vagas deve ser maior que zero!")
+        continue
+
     numero_masculino = int(input("Número de candidatos do sexo masculino: "))
-    if numero_masculino > 0:
-        numero_candidatos += numero_masculino
 
     numero_feminino = int(input("Número de candidatos do sexo feminino: "))
 
-    if numero_feminino > 0:
-        numero_candidatos += numero_feminino
+    numero_candidatos = numero_masculino + numero_feminino
 
-    if numero_candidatos > maior_numero_candidatos:
+    if numero_candidatos == 0:
+        print("Erro: Nenhum candidato registrado para este curso.")
+        continue
+
+    candidatos_por_vaga = numero_candidatos / numero_vagas
+
+    if candidatos_por_vaga > maior_numero_candidatos:
         curso_maior = codigo_curso
-        maior_numero_candidatos += numero_candidatos
+        maior_numero_candidatos = candidatos_por_vaga  
 
     total_candidatos += numero_candidatos
-    candidatos_maior = maior_numero_candidatos
+    
+    cursos += 1
 
     #a.calcule e escreva, para cada curso, o número de candidatos por vaga e a porcentagem de 
     #candidatos do sexo feminino (escreva também o código correspondente do curso);
@@ -54,10 +63,11 @@ while True:
         print("Erro: Informações não fornecidas!")
         continue
 
-    curso += 1
+    
 
+candidatos_maior = maior_numero_candidatos
 
-if  curso > 1:
+if  cursos > 0:
     print("VISÃO GERAL")
     #b.	determine o maior número de candidatos por vaga e escreva esse número juntamente com o 
     #ódigo do curso correspondente (supor que não haja empate);
@@ -69,7 +79,7 @@ if  curso > 1:
 
     #c.	calcule e escreva o total de candidatos;
     print(f"Total candidadatos: {total_candidatos}")
-elif curso == 0:
+elif cursos == 0:
     print()
 else:
     print("Não existe curso com maior vaga porque apenas 1 curso foi fornecido.")
