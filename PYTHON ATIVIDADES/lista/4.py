@@ -9,17 +9,13 @@
 #——————– 
 #Digite sua escolha:
 
-n = int(input("Quantas posições você deseja: "))
+
 nomes = []
-
-for i in range(n):
-    #1) Cadastrar nome
-    valor = input(f"Nome {i + 1}: ")
-    nomes.append(valor)
-
+i = 0
 while True:
-
+    
     print("======== MENU ========")
+    print(" (1) Cadastrar nome") 
     print(" (2) Pesquisar nome")
     print(" (3) Listar todos os nomes")
     print(" (0) Sair do programa")
@@ -28,7 +24,14 @@ while True:
     if escolha == 0:
         #0) Sair do programa 
         break
-    
+
+    elif escolha == 1:
+        
+        #1) Cadastrar nome
+        valor = input(f"Nome {i + 1}: ")
+        nomes.append(valor)
+        i += 1
+
     elif escolha == 2:
         #2) Pesquisar nome
         nome_procurar = input("Nome que você deseja procurar: ")
@@ -40,3 +43,5 @@ while True:
     elif escolha == 3:
         #3) Listar todos os nome 
         print(nomes)
+    
+    
