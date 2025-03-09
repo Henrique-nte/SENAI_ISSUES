@@ -1,20 +1,21 @@
 efetivado = 0
-pedidos = []
-estoque = int(input("Número de tamanhos de chinelos no estoque:"))
+estoque = []
 
-for i in range (estoque):
-    
+numero = int(input("Número de tamanhos de chinelos no estoque:"))
+
+for i in range (numero):
     quantidade = int(input(f"Quantidade para o tamanho {i + 1}:"))
+    estoque.append(quantidade)
 
 pedidos = int(input("Número de pedidos recebidos pela loja: "))
-pedidos.append(pedidos)
 
-for j in range(pedidos):
-    tamanho_pedido = int(input(f"O tamanho do chinelo do pedido {j + 1}:"))
+for i in range(pedidos):
+    tamanho_pedido = int(input(f"O tamanho do chinelo do pedido {i + 1}:"))
 
-    if tamanho_pedido == estoque[j]:
+    if tamanho_pedido in estoque:
         efetivado += 1
-        pedidos -= estoque[j]
+        del estoque[tamanho_pedido]
 
+      
 print(efetivado)
 
