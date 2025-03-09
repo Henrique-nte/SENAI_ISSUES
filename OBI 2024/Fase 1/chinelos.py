@@ -12,10 +12,9 @@ pedidos.append(pedidos)
 for j in range(pedidos):
     tamanho_pedido = int(input(f"O tamanho do chinelo do pedido {j + 1}:"))
 
-    if tamanho_pedido == quantidade:
-        if quantidade > 0:
-            efetivado += 1
-            quantidade -= 1
+    if tamanho_pedido == estoque[j]:
+        efetivado += 1
+        pedidos -= estoque[j]
 
 print(efetivado)
 
