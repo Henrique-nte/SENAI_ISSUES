@@ -11,9 +11,12 @@ pedidos = int(input("Número de pedidos recebidos pela loja: "))
 
 for _ in range(pedidos):
     tamanho_pedido = int(input("Tamanho do chinelo do pedido: "))
+    
 
+    print(estoque)
     if tamanho_pedido in estoque and estoque[tamanho_pedido] > 0:
         efetivado += 1
         estoque[tamanho_pedido] -= 1  # Reduz a quantidade disponível desse tamanho
+
 
 print(efetivado)
