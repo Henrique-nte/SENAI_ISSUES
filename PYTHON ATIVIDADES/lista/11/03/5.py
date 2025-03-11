@@ -12,27 +12,30 @@ preco = []
 valores = []
 #vendedor = []
 novo_preco = 0
+i = 0
+soma_pecas =0
+for i in range(3):
+    print(f"Vendedor {i + 1}")
 
-for i in range (3):
-
-    print(f"Para o vendedor {i + 1}")
-
-    valor = int(input("Digite a quantidade de peças: "))
+    valor = float(input("Quantidade de peças: "))
     pecas.append(valor)
+    soma_pecas += valor
 
-    valor = int(input("Digite o preço da peça vendida: ")) 
-    
-     
-    while valor in preco:
+    while True:
+        valor = float(input("Preço da peça vendida: ")) 
         
-        novo_preco = int(input("Digite o preço novamente: ")) 
-        preco.append(novo_preco)
-
-
-    preco.append(valor)
-
+        if valor in preco:
+            print("Erro. Preço repetido")
+            continue
+        if preco != valor:
+            preco.append(valor)
+            break
     
+    print(f"Para o vendedor {i + 1} Preço: {preco[i]}")
+    
+
 for i in range(3):
     print(f"Para o vendedor {i + 1}")
     total_vendas = pecas[i] * preco[i]
     print(total_vendas)
+print(f"Quantidade total de peças: {soma_pecas}")
