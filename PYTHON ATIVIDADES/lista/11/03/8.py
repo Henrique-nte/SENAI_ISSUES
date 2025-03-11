@@ -3,7 +3,7 @@
 #(multiplicando-os por -1).
 
 positivos = [1, 2, 3, 4]
-negativos = [-1, -2, -3, -4]
+negativos = [-4, -3, -2, -1]
 print(f"Vetor postivo inicial: {positivos}")
 print(f"Vetor negativo inicial: {negativos}")
 novo = []
@@ -17,7 +17,7 @@ for i in range(len(positivos)):
 print(f"Vetor positivo invertido: {novo_2}")
 
 for i in range(len(negativos)):
-    valor = negativos[i] * +1
+    valor = negativos[i] * -1
     novo.append(valor)
 
 print(f"Vetor negativo invertido: {novo}")
