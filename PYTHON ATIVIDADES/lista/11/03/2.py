@@ -21,10 +21,15 @@ for i in range(4):
 
     if preco_venda[i] > mais_caros_1:
         mais_caros_1 = preco_venda[i]
-    elif preco_venda[i] < mais_caros_1 and preco_venda [i] > mais_caros_2:
+        
+for i in range(4):
+
+    if preco_venda[i] < mais_caros_1 and preco_venda [i] > mais_caros_2:
         mais_caros_2 = preco_venda[i]
-    elif preco_venda[i] < mais_caros_1 and preco_venda[i] < mais_caros_2 and preco_venda[i] > mais_caros_3:
-        mais_caros_3 = preco_venda[i]
+
+for i in range(4):
+    if preco_venda[i] < mais_caros_1 and preco_venda[i] < mais_caros_2 and preco_venda[i] > mais_caros_3:
+        mais_caros_3 = preco_venda[i] 
 
 print(mais_caros_1)
 print(mais_caros_2)
