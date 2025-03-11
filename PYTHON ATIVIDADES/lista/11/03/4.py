@@ -3,6 +3,7 @@
 vetor_1 = [2, 2, 3]
 vetor_2 = [1, 2, 3]
 contador = 0
+
 for i in range(3):
     if vetor_1 [i] == vetor_2[i]:
         contador += 1
