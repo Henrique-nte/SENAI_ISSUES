@@ -24,5 +24,5 @@ for i in range(3):
         mes_menor = mes[i]
         
 
-print(f"No mês {mes_maior} Maior temperatura {maior_temperatura}")
-print(f"No mês {mes_menor} Menor temperatura {menor_temperatura}")
+print(f"O mês {mes_maior} teve a Maior temperatura {maior_temperatura}")
+print(f"O mês {mes_menor} teve a Menor temperatura {menor_temperatura}")
