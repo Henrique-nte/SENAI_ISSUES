@@ -83,7 +83,6 @@ while True:
                 case _:
                     continue
 
-
         case 4:  # EXIBIR
             # Verificando se há dados para imprimir
             if len(nomes) > 0 and len(telefone) > 0 and len(email) > 0:
@@ -99,7 +98,6 @@ while True:
         
             else:
                 print("Sem dados.")
-
 
     if resposta == 5:
         break
