@@ -32,15 +32,22 @@ while True:
             print("Editar contatos\n")
             response = input("Qual o nome do contato que você deseja editar")
 
-            if response in nomes:
-
-                print("1 - editar Nome\n 2 - editar telefone\n 3 - Editar Email")
-                resposta = input("Quais parâmetros do contato você deseja editar?")
-
-
-            else:
-                print("Nome não está na lista")
+            for i in range(3):
+                if nomes[i] == response:
+                    posicao = i
+                    contador = 1
+                    
+            if contador < 1:
+                print("Nome não está nos seus contatos")
                 continue
+
+            print("1 - editar Nome\n 2 - editar telefone\n 3 - Editar Email")
+            resposta = int(input("Quais parâmetros do contato você deseja editar?"))
+
+            match resposta:
+                case 1:
+                    valor = input("Nome novo: ")
+                    nomes[posicao] == valor
 
         case 4:
 
