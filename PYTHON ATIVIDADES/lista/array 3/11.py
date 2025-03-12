@@ -17,7 +17,7 @@ while True:
             print("Adicionando contatos")
 
             #ADICIONAR
-            for i in range(2):
+            for i in range(1):
 
                 valor = input(f"Digite o nome do contato {i + 1}: ")
                 nomes.append(valor)
@@ -32,11 +32,11 @@ while True:
             print("Editar contatos\n")
             response = input("Qual o nome do contato que você deseja editar")
 
-            for i in range(3):
+            for i in range(1):
                 if nomes[i] == response:
                     posicao = i
                     contador = 1
-                    
+
             if contador < 1:
                 print("Nome não está nos seus contatos")
                 continue
@@ -46,8 +46,9 @@ while True:
 
             match resposta:
                 case 1:
+                    print(posicao)
                     valor = input("Nome novo: ")
-                    nomes[posicao] == valor
+                    nomes[posicao] = valor
 
         case 4:
 
@@ -57,7 +58,7 @@ while True:
             print(f"{'Nome':<20}{'Telefone':<20}{'Email':<20}")  # Cabeçalho
             print("-" * 60)  # Linha de separação
 
-            for i in range(2):
+            for i in range(1):
                 print(f"{nomes[i]:<20}{telefone[i]:<20}{email[i]:<20}")
     if resposta == 5:
         break
