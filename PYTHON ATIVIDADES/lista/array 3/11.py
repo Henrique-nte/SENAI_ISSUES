@@ -57,7 +57,7 @@ while True:
         case 3:#EXCLUIR
             
             response = input("Qual o nome do contato que você deseja excluir os dados: ")
-
+    
             if response in nomes: 
 
                 for i in range(1):

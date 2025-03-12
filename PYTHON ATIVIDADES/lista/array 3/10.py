@@ -4,6 +4,7 @@
 
 nomes = []
 telefones = []
+contador = 0
 
 n = int(input("Quantas pessoas deseja armazenar: "))
 
@@ -24,5 +25,4 @@ for i in range(n):
     contador = 1
 
 if contador < 1:
-  print("Nome não está na lista.")
-    
+  print("Nome não está na lista.") 
