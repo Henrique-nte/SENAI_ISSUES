@@ -13,7 +13,6 @@ for i in range(3):
 value = int(input("Valor de referência: "))
 
 #a) imprima os números do vetor que são maiores que o valor referência
-
 for i in range(3):
     if vetor[i] > value:
         print(f"Números do vetor que são maiores que o valor de referência: {vetor[i]}")
