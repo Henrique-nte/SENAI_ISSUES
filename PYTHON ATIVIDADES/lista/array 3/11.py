@@ -12,11 +12,8 @@ while True:
     resposta = int(input("Digite a operação que você deseja realizar: "))
 
     match resposta:
-        case 1: 
+        case 1:#ADICIONAR
 
-            print("Adicionando contatos")
-
-            #ADICIONAR
             for i in range(1):
 
                 valor = input(f"Digite o nome do contato {i + 1}: ")
@@ -29,15 +26,15 @@ while True:
                 email.append(valor)
         case 2:
             #EDITAR
-            print("Editar contatos\n")
-            response = input("Qual o nome do contato que você deseja editar: ")
 
-            for i in range(1):
-                if nomes[i] == response:
-                    posicao = i
-                    contador = 1
+            response = input("Qual o nome do contato que você deseja editar os dados: ")
 
-            if contador < 1:
+            if response in nomes: 
+
+                for i in range(1):
+                    if nomes[i] == response:
+                        posicao = i
+            else:
                 print("Nome não está nos seus contatos")
                 continue
 
@@ -57,17 +54,16 @@ while True:
                     email[posicao] = valor
                 case _:
                     continue
-        case 3:
-            #EXCLUIR
-            print("Excluir contatos\n")
-            response = input("Qual o nome do contato que você deseja excluir: ")
+        case 3:#EXCLUIR
+            
+            response = input("Qual o nome do contato que você deseja excluir os dados: ")
 
-            for i in range(1):
-                if nomes[i] == response:
-                    posicao = i
-                    contador = 1
+            if response in nomes: 
 
-            if contador < 1:
+                for i in range(1):
+                    if nomes[i] == response:
+                        posicao = i
+            else:
                 print("Nome não está nos seus contatos")
                 continue
 
@@ -76,28 +72,34 @@ while True:
 
             match resposta:
                 case 1:
-                    valor = input("Nome novo: ")
-                    nomes[posicao] = valor
-
+                    nomes[posicao] = ""
+                    print(f"Nome do {nomes[posicao]} excluido com sucesso!")
                 case 2:
-                    valor = int(input("Telefone Novo: "))
-                    telefone[posicao] = valor
+                    telefone[posicao] = 0
+                    print(f"Telefone do {nomes[posicao]} excluido com sucesso!")
                 case 3:
-                    valor = input("Email Novo: ")
-                    email[posicao] = valor
+                    email[posicao] = ""
+                    print(f"Email do {nomes[posicao]} excluido com sucesso!")
                 case _:
                     continue
 
 
-        case 4:
+        case 4:  # EXIBIR
+            # Verificando se há dados para imprimir
+            if len(nomes) > 0 and len(telefone) > 0 and len(email) > 0:
+                    print("\nContatos")
+                    print("=" * 60)  # Linha de separação
+                    print(f"{'Nome':<20}{'Telefone':<20}{'Email':<20}")  # Cabeçalho
+                    print("-" * 60)  # Linha de separação
 
-            #EXIBIR
-            print("\nContatos")
-            print("=" * 60)  # Linha de separação
-            print(f"{'Nome':<20}{'Telefone':<20}{'Email':<20}")  # Cabeçalho
-            print("-" * 60)  # Linha de separação
+                # Imprimindo os contatos apenas se todos os campos tiverem valores
+                    for i in range(len(nomes)):
+                        if nomes[i] and telefone[i] and email[i]:
+                            print(f"{nomes[i]:<20}{telefone[i]:<20}{email[i]:<20}")
+        
+            else:
+                print("Sem dados.")
 
-            for i in range(1):
-                print(f"{nomes[i]:<20}{telefone[i]:<20}{email[i]:<20}\n")
+
     if resposta == 5:
         break
