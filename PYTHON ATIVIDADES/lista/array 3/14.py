@@ -5,7 +5,7 @@
 vetor = [1, 2, 3, 4, 5, 6, 7, 7, 7, 7, 7, 7]
 lista = []
 contador = 0
-
+#Guardar em dois vetores e analisar se sao iguais
 for i in range(len(vetor)):
 
     if vetor[i] == vetor[i - 1]:
