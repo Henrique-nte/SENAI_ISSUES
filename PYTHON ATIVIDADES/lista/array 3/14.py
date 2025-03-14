@@ -2,6 +2,7 @@
 #  o elemento que mais frequentemente aparece. Se houver mais de um elemento com a mesma frequência máxima, 
 # retorne todos eles.
 
+<<<<<<< HEAD
 # Recebendo o vetor
 
 vetor = []
