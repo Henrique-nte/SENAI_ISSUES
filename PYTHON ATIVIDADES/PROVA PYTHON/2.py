@@ -6,6 +6,7 @@ emprestimo = float(input("Valor do empréstimo: "))
 
 
 pagamento = emprestimo * 1.035
+
 # 10% da dívida inicial
 pagamento = (emprestimo / 100) * 10
 
@@ -18,7 +19,7 @@ while emprestimo > 0:
         pagamento = emprestimo
 
     emprestimo -= pagamento
-    
+    print(emprestimo)   
     mes += 1
 
 print(f"Mês: {mes}")
