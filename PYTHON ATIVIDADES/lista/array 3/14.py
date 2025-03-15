@@ -1,12 +1,9 @@
 #14 - Você recebe um vetor de números inteiros. Escreva um programa em JS que determine a moda do vetor, ou seja,
 #  o elemento que mais frequentemente aparece. Se houver mais de um elemento com a mesma frequência máxima, 
-# retorne todos eles.
-
-<<<<<<< HEAD
+# retorne todos eles.    
 # Recebendo o vetor
 
 vetor = []
-
 repetidos = []
 
 for i in range(7):
@@ -15,7 +12,7 @@ for i in range(7):
     vetor.append(valor)
 
 for i in range(len(vetor)):
-        
+             
         for j in range(i + 1, len(vetor)):
 
             if vetor[i] == vetor[j] and vetor[i] not in repetidos:
@@ -34,5 +31,3 @@ print(repetidos)
     #if frequencia_total[i] > max_frequencia:
         #max_frequencia = frequencia_total[i]
         #moda = repetidos[i]
-
-
