@@ -18,4 +18,4 @@ print("Impares: ", end = "")
 for impares in range(1, n + 1):
         if impares % 2 != 0:
             print(f"{impares}", end=" ")
-            
+        
