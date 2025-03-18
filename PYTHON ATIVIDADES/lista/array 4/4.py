@@ -12,6 +12,7 @@ contador = 0
 n = int(input("Quantos números você deseja: "))
 
 numeros_aleatorios = [random.randint(1, 100) for _ in range(n)]
+
 array.append(numeros_aleatorios)
 
 print(numeros_aleatorios)
