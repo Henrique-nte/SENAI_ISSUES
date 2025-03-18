@@ -12,6 +12,7 @@ while i < len(array):
         del array[i]
     else:
         i += 1
+        
 for i in range(contador):
     array.append(0)
 
