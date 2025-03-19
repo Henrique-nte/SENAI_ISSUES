@@ -1,7 +1,7 @@
 ##Dado um array de números inteiros de 1 a n (em que um número pode estar faltando), 
 #encontre o número que está faltando.
 
-array = [1, 2, 3, 5]
+array = [1, 2, 4, 5]
 encontrado = 0
 
 for i in range(len(array)):
@@ -11,4 +11,3 @@ for i in range(len(array)):
         break
 else:
     print("Não há números ausentes.")
-
