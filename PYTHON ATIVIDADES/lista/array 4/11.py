@@ -23,12 +23,9 @@ while True:
         case 1:
             for i in range(1):
 
-
                 nome = input("Nome do produto:")
                 preco = input("Preço do produto:")
                 codigo = input("Codigo do produto:")
-
-                
 
                 if codigo in codigos:
                     print("Codigo ja existente.")
@@ -51,9 +48,11 @@ while True:
             if codigo in codigos:
                 for i in range(len(nomes)):
                     if codigos[i] == codigo:
-                        print(nomes[i])
-                        print(precos[i])
-                        print(codigos[i])
+                        
+                        print(f"Nome do produto {codigo}: {nomes[i]}")
+                        print(f"Preço do produto {codigo}: {precos[i]}")
+                        
+                        
             else:
                 print("Produto não cadastrado")
         case 4:
