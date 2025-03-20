@@ -58,4 +58,3 @@ while True:
                 print("Produto não cadastrado")
         case 4:
             break
-
