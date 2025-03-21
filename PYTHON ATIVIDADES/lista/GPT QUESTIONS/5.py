@@ -15,8 +15,3 @@ for i in frase:
     if i in vogais:
         i = caractere 
     lista.append(i)
-    
-string = ''
-print(lista)
-lista = string
-print(string)
