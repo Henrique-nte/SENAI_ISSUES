@@ -4,18 +4,15 @@
 #📌 Desafio Extra: Permita que o usuário escolha com qual caractere substituir as vogais.
 
 frase = input("Digite uma frase: ")
+palavra = ''
 vogais = ['a','e','i','o','u']
-verificador = 0
-contador = 0
-lista = []
 
 caractere = input("Qual caractere irá substituir as vogais: ")
 
 for i in frase:
-    if i in vogais:
-        i = caractere 
-    lista.append(i)
-    
-var = lista
 
-print(var)
+    if i in vogais and i != " ":
+        i = caractere
+    palavra += i
+   
+print(palavra)
