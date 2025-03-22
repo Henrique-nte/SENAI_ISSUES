@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #19- Implemente um código que mova todos os números negativos para o início do array, mantendo
 # a ordem dos outros números.
 
@@ -24,3 +25,7 @@ for i in range(len(vetor)):
     lista.append(vetor[i])
     
 print(lista)
+=======
+#19- Implemente um código que mova todos os números negativos para o início 
+# do array, mantendo a ordem dos outros números.
+>>>>>>> Stashed changes

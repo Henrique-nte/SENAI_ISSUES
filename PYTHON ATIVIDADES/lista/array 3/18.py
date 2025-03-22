@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #18- Implemente um código que conte quantas vezes um determinado número aparece em um array.
 
 vetor = [1, 2, 3, 4, 5, 1, 1, 1]
@@ -11,3 +12,6 @@ for i in range(len(vetor)):
         contador += 1
 
 print(contador)
+=======
+#18- Implemente um código que conte quantas vezes um determinado número aparece em um array.
+>>>>>>> Stashed changes
