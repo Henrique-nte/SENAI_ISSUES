@@ -15,3 +15,7 @@ for i in frase:
     if i in vogais:
         i = caractere 
     lista.append(i)
+    
+var = lista
+
+print(var)
