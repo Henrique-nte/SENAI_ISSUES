@@ -14,7 +14,7 @@ soma_pares = 0
 
 for i in range(len(matriz)):
     for j in range(len(matriz)):
-        if matriz[i][j] % 2 != 0:
+        if matriz[i][j] % 2 == 0:
             soma_pares += matriz[i][j]
-            
+
 print(soma_pares)
