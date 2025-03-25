@@ -6,3 +6,9 @@ matriz = [
 ]
 
 for i in range(len(matriz)):
+    for j in range(i + 1,len(matriz)):
+        if matriz[i][j] == matriz[i][j]:
+            
+            indice_i = i
+            indice_j = j
+print(f"Indices {matriz[indice_i][indice_j]} iguais")
