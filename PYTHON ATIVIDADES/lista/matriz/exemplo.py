@@ -9,3 +9,8 @@ for linha in range(4):
 
 for linha in matriz:
     print(matriz)
+
+#printar matriz:
+#for l,c in matriz: 
+    #print(f"{l} | {c}")
+    #para inteiros devemos tranformar em str = ex: str(c)
