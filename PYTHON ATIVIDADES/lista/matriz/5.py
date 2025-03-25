@@ -15,12 +15,15 @@ for linha in matriz:
     print(f"{linha}")
 
 #a) escreva os elementos da diagonal principal;
+print("Elementos da diagonal da matriz")
 for i in range(len(matriz)):
     for j in range(len(matriz)):
         if i == j:
+            
             print(matriz[i][j], "|", end=" ")
         
 print()
+print("Elementos exceto os da diagonal")
 #b) escreva todos os elementos, exceto os elementos da diagonal principal;
 for i in range(len(matriz)):
     for j in range(len(matriz)):
