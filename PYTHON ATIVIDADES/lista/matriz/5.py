@@ -2,9 +2,27 @@
 #a) escreva os elementos da diagonal principal;
 #b) escreva todos os elementos, exceto os elementos da diagonal principal;
 
-matriz = [
-    [1, 2, 3, 4],
-    [2, 3, 4, 5],
-    [4, 3, 2, 1],
-    [9, 8, 7, 6]
-]
+matriz = []
+
+for linha in range(3):
+    linha = []
+    for coluna in range(3):
+        valor = int(input("Digite um número:"))
+        linha.append(valor)
+    matriz.append(linha)
+
+for linha in matriz: 
+    print(f"{linha}")
+
+#a) escreva os elementos da diagonal principal;
+for i in range(len(matriz)):
+    for j in range(len(matriz)):
+        if i == j:
+            print(matriz[i][j], "|", end=" ")
+        
+print()
+#b) escreva todos os elementos, exceto os elementos da diagonal principal;
+for i in range(len(matriz)):
+    for j in range(len(matriz)):
+        if i != j:
+            print(matriz[i][j], "|", end=" ")
