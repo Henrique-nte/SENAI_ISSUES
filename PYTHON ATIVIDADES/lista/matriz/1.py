@@ -22,7 +22,7 @@ matrizMul = []
 print("Matriz A")
 for linha in range(2):
     linha = []
-    for coluna in range(3):
+    for coluna in range(2):
         valor = float(input("Digite o valor da venda: "))
         linha.append(valor)
     a.append(linha)
@@ -31,7 +31,7 @@ print(a)
 print("Matriz B")
 for linha in range(2):
     linha = []
-    for coluna in range(3):
+    for coluna in range(2):
         valor = float(input("Digite o valor da venda: "))
         linha.append(valor)
     b.append(linha)
