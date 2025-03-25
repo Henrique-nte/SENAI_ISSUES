@@ -10,5 +10,9 @@ matriz = [
 ]
 valor_menor = float("inf")
 
+for i in range(len(matriz)):
+    for j in range(len(matriz)):
+        if matriz[i][j] < valor_menor:
+            valor_menor = matriz[i][j]
 
-
+print(valor_menor)
