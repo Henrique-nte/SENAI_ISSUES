@@ -41,13 +41,25 @@ for i in range(len(matriz)):
             soma += matriz[i][j]
 print(f"Soma da diagonal principal: {soma}")
 
-#d) da diagonal secundária.    
+#matriz = [
+    #[1, 2, 3, 4, 5],
+    #[5, 4, 3, 2, 1], #15
+    #[5, 6, 7, 8, 9], 
+    #[1, 1, 1, 1, 1], # 5
+    #[1, 2, 3, 4, 5]
+#]
+#d) da diagonal secundária.  #16  
 soma = 0
-for i in range(len(matriz)):
-    for j in range(len(matriz)):
-        if i == len(matriz) - j:
-                print(matriz[i][j])
-                soma += matriz[i][j]
+#Lógica é j = n - 1 - i
+n = len(matriz)  
+for i in range(n):
+    j = n - 1 - i  
+    if  j < n >= 0:  
+        soma += matriz[i][j]
 
 print(f"Soma da diagonal secundária: {soma}")
 
+#e) de todos os elementos da matriz.
+for l in matriz:
+    for c in matriz:
+        print(f"{str(l)}, "|" , {str(c)}")
