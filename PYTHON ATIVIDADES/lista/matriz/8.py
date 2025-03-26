@@ -9,29 +9,29 @@
 
 matriz = [
     [1, 2, 3, 4, 5],
-    [5, 4, 3, 2, 1], #15
+    [5, 4, 3, 2, 1], 
     [5, 6, 7, 8, 9], 
     [1, 1, 1, 1, 1], # 5
-    [1, 2, 3, 4, 5]
+    [1, 2, 3, 4, 5] #15
 ]
 
 #a) da linha 4 de M.
-print("Soma da linha 4")
+
 soma = 0
 for i in range(5):
-        if i == 3:
+        if i == 4:
             for j in range(5):
                     soma += matriz[i][j] 
-print(soma)
+print(f"Soma da linha 4: {soma}")
 
 #b) da coluna 2 de M.
-print("Soma da linha 2")
+
 soma = 0
 for i in range(5):
-        if i == 1:
-            for j in range(5):
-                    soma += matriz[i][j] 
-print(soma)
+        for j in range(5):
+            if j == 2:
+                soma += matriz[i][j] 
+print(f"Soma da coluna 2: {soma}")
 
 #c) da diagonal principal.
 soma = 0
@@ -60,6 +60,8 @@ for i in range(n):
 print(f"Soma da diagonal secundária: {soma}")
 
 #e) de todos os elementos da matriz.
-for l in matriz:
-    for c in matriz:
-        print(f"{str(l)}, "|" , {str(c)}")
+print("Elementos da matriz")
+for linha in matriz:  
+    for elemento in linha: 
+        print(elemento,"|", end=" ")  
+    print()  
