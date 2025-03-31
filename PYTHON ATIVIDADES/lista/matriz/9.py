@@ -2,8 +2,11 @@
 #  respectivo na matriz original.
 
 matriz = [
-    [3,2,],
-    [3,2,]  
+    [8, 3, 5, 1, 7],
+    [4, 9, 2, 6, 3],
+    [7, 1, 8, 4, 5],
+    [2, 6, 3, 9, 8],
+    [5, 7, 4, 2, 1]
 ]
 
 lista = []
@@ -14,9 +17,15 @@ for i in range(len(matriz)):
         linha.append(valor)
     lista.append(linha)
 
-for l,c in matriz:
-    print(l,"|", c)     
+for linha in matriz:
+    for elemento in linha:
+        print( elemento,"|", end=" ")
+    print()
+
 print()
-for l,c in lista:
-    print(l,"|", c)
+
+for linha in lista:
+    for elemento in linha:
+        print( elemento,"|", end=" ")
+    print()
  

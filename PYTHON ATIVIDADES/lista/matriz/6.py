@@ -3,9 +3,9 @@
 
 matriz = []
 
-for linha in range(2):
+for linha in range(5):
     linha = []
-    for coluna in range(2):
+    for coluna in range(5):
         valor = int(input("Digite um número: "))
         linha.append(valor)
     matriz.append(linha)
