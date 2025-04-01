@@ -49,12 +49,13 @@ contador = 0
 if n > 0:
     for linha in range(n):
         nome = str(input("Nome do funcionário: "))
-        for contador in nome:
+        for caractere in nome:
             contador += 1
         if contador > 2:
             funcionarios.append([nome])
         else:
-            print("Nome inválido.")
+            print("Nome inválido")
+       
 
 for linha in funcionarios:
     for elemento in linha:
@@ -88,13 +89,24 @@ for linha in funcionarios:
 #salário decrescido dos valores do INSS e do Imposto de Renda.
 dados = []
 i= 0
-
+inss = 0
 for linha in range(len(funcionarios)):
     linha = []
     valor = funcionarios[i] #Pega o nome da lista de funcionários
     linha.append(valor)
     for coluna in range(1):
-        valor = int(input("Salário Bruto: "))
+        bruto = int(input("Salário Bruto: "))
+        match bruto:
+            case bruto if bruto > 965.68 and bruto < 965.67:
+                inss = valor * 0.08
+            case bruto if bruto > 1609.45:
+                inss = valor * 0.09
+            case bruto if bruto > 1609.45:
+                inss = valor * 0.09
+
+    
+        
+        liquido = valor - inss
         linha.append(valor)
         valor = int(input("INSS: "))
         linha.append(valor)
