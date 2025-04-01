@@ -45,10 +45,16 @@
 #Armazene os nomes dos funcionários em um vetor.  
 n = int(input("Quantos Funcionários deseja registrar?"))
 funcionarios = []
+contador = 0
 if n > 0:
     for linha in range(n):
-        nome = input("Nome do funcionário: ")
-        funcionarios.append([nome])
+        nome = str(input("Nome do funcionário: "))
+        for contador in nome:
+            contador += 1
+        if contador > 2:
+            funcionarios.append([nome])
+        else:
+            print("Nome inválido.")
 
 for linha in funcionarios:
     for elemento in linha:
@@ -61,6 +67,25 @@ for linha in funcionarios:
 #INSS 
 #Imposto de Renda 
 #Salário líquido
+#O nome e o salário bruto devem ser informados e os descontos devem ser calculados pelo aplicativo.  
+#Se o nome ou o salário bruto não forem válidos, uma mensagem de erro deve ser exibida e o aplicativo deve solicitar novamente o dado.  
+#As regras para a validação destes dados são as seguintes: 
+#Nome: deve conter pelo menos 2 caracteres. 
+#Salário: deve ser um valor igual ou superior a R$ 465,00.
+#O teto para recolhimento de INSS é de RS 354,07. Esse é o valor máximo que pode ser descontado do funcionário. 
+#Para cada funcionário, o aplicativo deve calcular os valores a serem descontados de seu salário a título de INSS e de Imposto de Renda. 
+#Para calcular o valor do INSS a ser descontado, utilize a tabela abaixo: 
+#Salário Alíquota Até R$ 965,67 8,0 
+#De R$ 965,68 a R$ 1.609,45 9,0 
+#De R$ 1.609,46 a R$ 3.218,90 11,0
+#Para calcular o valor do Imposto de Renda, utilize a tabela abaixo. 
+#Salário Alíquota Até R$ 1.434,00 0,0 
+#De R$ 1.434,01 a R$ 2.150,00 7,5 
+#De R$ 2.150,01 a R$ 2.886,00 15,0 
+#De R$ 2.886,01 a R$ 3.582,00 22,5 
+#Acima de 3.582,00 27,5
+#O aplicativo também deve calcular o salário líquido a ser pago a cada funcionário, que representa o valor do 
+#salário decrescido dos valores do INSS e do Imposto de Renda.
 dados = []
 i= 0
 
