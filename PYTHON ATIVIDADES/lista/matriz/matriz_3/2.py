@@ -7,8 +7,9 @@ matriz= []
 for linha in range(n):
     linha = []
     for coluna in range(n):
-        valor = random.randint(1, 9)
-        linha.append(valor)
+        valor = random.randint(10, 30)
+        if valor not in linha:
+            linha.append(valor)
     matriz.append(linha)
 
 for linha in matriz:
@@ -16,8 +17,9 @@ for linha in matriz:
         print(elemento,"|", end = "")
     print()
 
-x = 1
 for i in range(len(matriz)):
-    for j in range(len(matriz)):
+    
+    for j in range(1, len(matriz[i])):
         print(matriz[i][j])
+    
         
