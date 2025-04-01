@@ -7,9 +7,8 @@ matriz= []
 for linha in range(n):
     linha = []
     for coluna in range(n):
-        valor = random.randint(10, 30)
-        if valor not in linha:
-            linha.append(valor)
+        valor = random.randint(1, 9)
+        linha.append(valor)
     matriz.append(linha)
 
 for linha in matriz:
@@ -17,9 +16,17 @@ for linha in matriz:
         print(elemento,"|", end = "")
     print()
 
+print("Diagonal principal")
 for i in range(len(matriz)):
-    
-    for j in range(1, len(matriz[i])):
-        print(matriz[i][j])
+    for j in range(len(matriz[i])):
+        if j == i:
+            print(matriz[i][j], "|", end = "")
+print()
+print("Diagonal secundária")
+n = len(matriz)
+for i in range(n):
+    j = n - 1 - i  
+    if  j < n >= 0:  
+            print(matriz[i][j], "|", end = "")
     
         
