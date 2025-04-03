@@ -92,27 +92,56 @@ i= 0
 inss = 0
 for linha in range(len(funcionarios)):
     linha = []
-    valor = funcionarios[i] #Pega o nome da lista de funcionários
-    linha.append(valor)
+    nome = funcionarios[i] #Pega o nome da lista de funcionários
+    linha.append(nome)
     for coluna in range(1):
-        bruto = int(input("Salário Bruto: "))
-        match bruto:
-            case bruto if bruto > 965.68 and bruto < 965.67:
-                inss = valor * 0.08
-            case bruto if bruto > 1609.45:
-                inss = valor * 0.09
-            case bruto if bruto > 1609.45:
-                inss = valor * 0.09
+        bruto = float(input("Salário Bruto: "))
 
-    
-        
-        liquido = valor - inss
+        #Calculo do INSS
+        if bruto <= 965.67:
+            inss = "8%"
+            inss_calculo = bruto * 0.08
+        elif bruto > 965.68 and bruto <= 1609.45:
+            inss = "9%"
+            inss_calculo = bruto * 0.09
+        elif bruto > 1609.46 and bruto < 3218.90:
+            inss = "11%"
+            inss_calculo = bruto * 0.11
+        if inss_calculo < 354.07:
+            liquido = bruto - inss_calculo
+        else:
+            print("Teto atingido")
+            liquido = bruto - 354.07
+
+        #Calculo do imposto de renda
+        #Salário Alíquota Até R$ 1.434,00 0,0 
+        #De R$ 1.434,01 a R$ 2.150,00 7,5 
+        #De R$ 2.150,01 a R$ 2.886,00 15,0 
+        #De R$ 2.886,01 a R$ 3.582,00 22,5 
+        #Acima de 3.582,00 27,5
+                
+        if bruto < 1434.00:
+            liquido = bruto
+        elif bruto > 1434.01 and bruto <= 2150:
+            imposto_renda = bruto * 0.075
+            liquido -= imposto_renda
+        elif bruto > 2151 and bruto <= 2886:
+            imposto_renda = bruto * 0.15
+            liquido -= imposto_renda
+        elif bruto > 2887 and bruto <= 3582:
+            imposto_renda = bruto * 0.225
+            liquido -= imposto_renda
+        elif bruto > 3582:
+            imposto_renda = bruto * 0.275
+            liquido -= imposto_renda
+            
+        liquido = bruto - inss_calculo
+        linha.append(liquido)
+        taxa_inss = inss
+        linha.append(taxa_inss)
+        valor = imposto_renda
         linha.append(valor)
-        valor = int(input("INSS: "))
-        linha.append(valor)
-        valor = int(input("Imposto de renda: "))
-        linha.append(valor)
-        valor = int(input("Salário líquido: "))
+        valor = liquido
         linha.append(valor)
         i += 1
     dados.append(linha)
