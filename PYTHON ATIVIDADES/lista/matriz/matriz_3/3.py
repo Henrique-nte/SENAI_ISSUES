@@ -55,12 +55,7 @@ if n > 0:
             funcionarios.append([nome])
         else:
             print("Nome inválido")
-       
 
-for linha in funcionarios:
-    for elemento in linha:
-        print(elemento,"|", end = "")
-    print()
 
 #Utilize uma matriz que contenha quatro colunas para armazenar os 
 #seguintes dados de cada funcionário: 
@@ -96,7 +91,9 @@ for linha in range(len(funcionarios)):
     linha.append(nome)
     for coluna in range(1):
         bruto = float(input("Salário Bruto: "))
+        linha.append(bruto)
 
+        inss_calculo = 0.0
         #Calculo do INSS
         if bruto <= 965.67:
             inss = "8%"
@@ -119,7 +116,8 @@ for linha in range(len(funcionarios)):
         #De R$ 2.150,01 a R$ 2.886,00 15,0 
         #De R$ 2.886,01 a R$ 3.582,00 22,5 
         #Acima de 3.582,00 27,5
-                
+
+        imposto_renda = 0.0   
         if bruto < 1434.00:
             liquido = bruto
         elif bruto > 1434.01 and bruto <= 2150:
@@ -135,19 +133,23 @@ for linha in range(len(funcionarios)):
             imposto_renda = bruto * 0.275
             liquido -= imposto_renda
             
-        liquido = bruto - inss_calculo
-        linha.append(liquido)
         taxa_inss = inss
         linha.append(taxa_inss)
         valor = imposto_renda
         linha.append(valor)
-        valor = liquido
-        linha.append(valor)
+        liquido = bruto - inss_calculo
+        linha.append(liquido)
         i += 1
     dados.append(linha)
 
-print("Dados")
+print("|Funcionário|Salário Bruto|INSS|Imposto de Renda|Salário Líquido|")
 for linha in dados:
     for elemento in linha:
-        print(elemento,"|", end = "")
+        print(elemento,"|    ", end = "")
     print()
+
+#Ao final deste resumo, devem ser indicadas algumas totalizações: 
+#A soma do valor de todos os salários brutos 
+#A soma dos descontos de INSS 
+#A soma dos descontos de Imposto de Renda 
+#A soma de todos os salários líquidos
