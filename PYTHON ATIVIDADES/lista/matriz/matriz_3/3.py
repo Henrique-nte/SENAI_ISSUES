@@ -159,10 +159,10 @@ for linha in range(len(funcionarios)):
     dados.append(linha)
 
 #print("|Funcionário|Salário Bruto|INSS|Imposto de Renda|Salário Líquido|")
-for linha in dados:
-    for elemento in linha:
-        print(elemento,"|    ", end = "")
-    print()
+#for linha in dados:
+    #for elemento in linha:
+        #print(elemento,"|    ", end = "")
+    #print()
 
 #Ao final deste resumo, devem ser indicadas algumas totalizações:
  
