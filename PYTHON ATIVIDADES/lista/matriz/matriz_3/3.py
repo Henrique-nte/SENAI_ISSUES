@@ -83,6 +83,7 @@ if n > 0:
 #O aplicativo também deve calcular o salário líquido a ser pago a cada funcionário, que representa o valor do 
 #salário decrescido dos valores do INSS e do Imposto de Renda.
 dados = []
+soma_brutos = 0
 i= 0
 inss = 0
 for linha in range(len(funcionarios)):
@@ -94,16 +95,20 @@ for linha in range(len(funcionarios)):
         linha.append(bruto)
 
         inss_calculo = 0.0
+        soma_des_inss = 0
         #Calculo do INSS
         if bruto <= 965.67:
             inss = "8%"
             inss_calculo = bruto * 0.08
+            
         elif bruto > 965.68 and bruto <= 1609.45:
             inss = "9%"
             inss_calculo = bruto * 0.09
+            
         elif bruto > 1609.46 and bruto < 3218.90:
             inss = "11%"
             inss_calculo = bruto * 0.11
+            
         if inss_calculo < 354.07:
             liquido = bruto - inss_calculo
         else:
@@ -116,8 +121,10 @@ for linha in range(len(funcionarios)):
         #De R$ 2.150,01 a R$ 2.886,00 15,0 
         #De R$ 2.886,01 a R$ 3.582,00 22,5 
         #Acima de 3.582,00 27,5
-
-        imposto_renda = 0.0   
+        
+        imposto_renda = 0.0  
+        soma_liquido = 0
+        soma_imposto_renda = 0
         if bruto < 1434.00:
             liquido = bruto
         elif bruto > 1434.01 and bruto <= 2150:
@@ -132,7 +139,16 @@ for linha in range(len(funcionarios)):
         elif bruto > 3582:
             imposto_renda = bruto * 0.275
             liquido -= imposto_renda
-            
+
+        #A soma do valor de todos os salários brutos
+        soma_brutos += bruto 
+        #A soma dos descontos de INSS
+        soma_des_inss += inss_calculo
+        #A soma dos descontos de Imposto de Renda 
+        soma_imposto_renda += imposto_renda
+        #A soma de todos os salários líquidos
+        soma_liquido += liquido  
+
         taxa_inss = inss
         linha.append(taxa_inss)
         valor = imposto_renda
@@ -149,7 +165,11 @@ for linha in dados:
     print()
 
 #Ao final deste resumo, devem ser indicadas algumas totalizações: 
-#A soma do valor de todos os salários brutos 
+#A soma do valor de todos os salários brutos
+print(f"Soma dos salários brutos: {soma_brutos}")
 #A soma dos descontos de INSS 
+print(f"Soma dos descontos de INSS: {soma_des_inss}")
 #A soma dos descontos de Imposto de Renda 
+print(f"Soma descontos de Imposto de Renda: {soma_imposto_renda}")
 #A soma de todos os salários líquidos
+print(f"Soma dos salários liquidos: {soma_liquido}")
