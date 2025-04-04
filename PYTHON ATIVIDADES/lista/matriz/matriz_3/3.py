@@ -158,13 +158,14 @@ for linha in range(len(funcionarios)):
         i += 1
     dados.append(linha)
 
-print("|Funcionário|Salário Bruto|INSS|Imposto de Renda|Salário Líquido|")
+#print("|Funcionário|Salário Bruto|INSS|Imposto de Renda|Salário Líquido|")
 for linha in dados:
     for elemento in linha:
         print(elemento,"|    ", end = "")
     print()
 
-#Ao final deste resumo, devem ser indicadas algumas totalizações: 
+#Ao final deste resumo, devem ser indicadas algumas totalizações:
+ 
 #A soma do valor de todos os salários brutos
 print(f"Soma dos salários brutos: {soma_brutos}")
 #A soma dos descontos de INSS 
