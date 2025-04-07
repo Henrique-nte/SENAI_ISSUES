@@ -12,13 +12,15 @@ matriz = [
 ]
 
 contador = 0 
-for i in range(len(matriz)):
-    for j in range(len(matriz)):
-        if j == 2:
-           for k in range(len(matriz)):
-            print(matriz[i][j])
-           
+
+for linha in matriz:
+    for numero in linha[2]:
+        contador += numero
+
+total_faltas = contador
+
 print(contador)
+
 #a) o total de faltas do campeonato
 #b) o time que fez mais faltas
 #c) o time que fez menos faltas
