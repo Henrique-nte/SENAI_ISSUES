@@ -6,18 +6,25 @@
 #do campeonato b) o time que fez mais faltas c) o time que fez menos faltas.
 
 matriz = [
-
     ['Brasil', 'Itália', [1, 5]],
     ['Brasil', 'Espanha', [2, 5]],
     ['Itália','Espanha', [3, 5]]
-
 ]
 
+contador = 0
+faltas_brasil = 0
+verificador = 0
 #b) o time que fez mais faltas
-for i in range(len(matriz)):
-    for j in range(matriz[i][2]):
-        print(matriz[i][j])
+for linha in matriz:
+    for time in linha:
+        if time == "Brasil":
+            for numero in linha[2]:
+                if verificador == 0:
+                    faltas_brasil += numero
+                verificador += 1
 
+
+print(f"Faltas do brasil: {faltas_brasil}")
 
 contador_faltas = 0 
 contador_faltas_total = 0
