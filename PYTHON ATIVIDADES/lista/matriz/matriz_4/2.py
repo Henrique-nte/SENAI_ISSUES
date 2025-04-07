@@ -4,3 +4,13 @@
 #cada jogo. Na lista acima, no jogo entre Brasil e Itália, o Brasil fez 10
 #faltas e a Itália fez 9. O programa deve imprimir na tela: a) o total de faltas
 #do campeonato b) o time que fez mais faltas c) o time que fez menos faltas.
+
+[
+    ['Brasil', 'Itália', [10, 9]],
+    ['Brasil', 'Espanha', [5, 7]],
+    ['Itália','Espanha', [7,8]]
+]
+
+#a) o total de faltas do campeonato
+#b) o time que fez mais faltas
+#c) o time que fez menos faltas.
