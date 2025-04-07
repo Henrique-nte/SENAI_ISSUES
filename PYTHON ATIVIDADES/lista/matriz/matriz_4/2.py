@@ -6,10 +6,18 @@
 #do campeonato b) o time que fez mais faltas c) o time que fez menos faltas.
 
 matriz = [
-    ['Brasil', 'Itália', [5, 6]],
-    ['Brasil', 'Espanha', [1, 2]],
-    ['Itália','Espanha', [2, 5]]
+
+    ['Brasil', 'Itália', [1, 5]],
+    ['Brasil', 'Espanha', [2, 5]],
+    ['Itália','Espanha', [3, 5]]
+
 ]
+
+#b) o time que fez mais faltas
+for i in range(len(matriz)):
+    for j in range(matriz[i][2]):
+        print(matriz[i][j])
+
 
 contador_faltas = 0 
 contador_faltas_total = 0
@@ -21,23 +29,13 @@ linhas = 0
 
 for linha in matriz:
     for numero in linha[2]:
-        contador += 1
-        contador_faltas += numero
         contador_faltas_total += numero
-        if contador == 2:
-            linhas += 1
-            if contador_faltas > faltas_maior:
-                faltas_maior = contador_faltas
-                linha_maior = linhas
-            contador = 0
-            contador_faltas = 0
 
-#a) o total de faltas do campeonato
+#a) O total de faltas do campeonato
 total_faltas = contador_faltas_total
 print(contador_faltas_total)
 
-#b) o time que fez mais faltas
-print(f"Faltas maior: {faltas_maior}")
-print(f"Linha que fez mais falta: {linha_maior}")
+
+        
 
 #c) o time que fez menos faltas
