@@ -8,7 +8,7 @@
 matriz = [
     ['Brasil', 'Itália', [5, 6]],
     ['Brasil', 'Espanha', [1, 2]],
-    ['Itália','Espanha', [2,3]]
+    ['Itália','Espanha', [2, 5]]
 ]
 
 contador_faltas = 0 
@@ -18,18 +18,18 @@ faltas_menor = 0
 linha_maior = 0
 linhas = 0
 
+
 for linha in matriz:
     for numero in linha[2]:
-        linhas += 1
         contador += 1
         contador_faltas += numero
         if contador == 2:
-            if contador > faltas_maior:
-                faltas_maior = contador
+            linhas += 1
+            if contador_faltas > faltas_maior:
+                faltas_maior = contador_faltas
                 linha_maior = linhas
-                
-
             contador = 0
+            contador_faltas = 0
 
 #a) o total de faltas do campeonato
 total_faltas = contador_faltas
