@@ -12,17 +12,18 @@ matriz = [
 ]
 
 contador_faltas = 0 
+contador_faltas_total = 0
 contador = 0
 faltas_maior = float("-inf")
 faltas_menor = 0
 linha_maior = 0
 linhas = 0
 
-
 for linha in matriz:
     for numero in linha[2]:
         contador += 1
         contador_faltas += numero
+        contador_faltas_total += numero
         if contador == 2:
             linhas += 1
             if contador_faltas > faltas_maior:
@@ -32,8 +33,8 @@ for linha in matriz:
             contador_faltas = 0
 
 #a) o total de faltas do campeonato
-total_faltas = contador_faltas
-print(total_faltas)
+total_faltas = contador_faltas_total
+print(contador_faltas_total)
 
 #b) o time que fez mais faltas
 print(f"Faltas maior: {faltas_maior}")
