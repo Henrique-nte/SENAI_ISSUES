@@ -5,12 +5,20 @@
 #faltas e a Itália fez 9. O programa deve imprimir na tela: a) o total de faltas
 #do campeonato b) o time que fez mais faltas c) o time que fez menos faltas.
 
-[
+matriz = [
     ['Brasil', 'Itália', [10, 9]],
     ['Brasil', 'Espanha', [5, 7]],
     ['Itália','Espanha', [7,8]]
 ]
 
+contador = 0 
+for i in range(len(matriz)):
+    for j in range(len(matriz)):
+        if j == 2:
+           for k in range(len(matriz)):
+            print(matriz[i][j])
+           
+print(contador)
 #a) o total de faltas do campeonato
 #b) o time que fez mais faltas
-#c) o time que fez menos faltas.
+#c) o time que fez menos faltas
