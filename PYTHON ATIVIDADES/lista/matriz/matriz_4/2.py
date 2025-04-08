@@ -21,7 +21,7 @@ for linha in matriz:
             for numero in linha[2]:
                 if verificador == 0:
                     faltas_brasil += numero
-                verificador += 1
+                #verificador += 1
 
 print(f"Faltas do brasil: {faltas_brasil}")
 
@@ -41,7 +41,5 @@ for linha in matriz:
 total_faltas = contador_faltas_total
 print(contador_faltas_total)
 
-
-        
 
 #c) o time que fez menos faltas
