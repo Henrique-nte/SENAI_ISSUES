@@ -4,50 +4,60 @@
 #cada jogo. Na lista acima, no jogo entre Brasil e Itália, o Brasil fez 10
 #faltas e a Itália fez 9. O programa deve imprimir na tela: a) o total de faltas
 #do campeonato b) o time que fez mais faltas c) o time que fez menos faltas.
-
 matriz = [
     ['Brasil', 'Itália', [1, 5]],
     ['Brasil', 'Espanha', [2, 5]],
-    ['Itália','Espanha', [3, 5]]
+    ['Itália', 'Espanha', [3, 5]]
 ]
 
-contador = 0
-faltas_brasil = 0
-verificador = 0
+times = []
+faltas = []
 
-#b) o time que fez mais faltas
-for linha in matriz:
-    for time in linha:
-        if time == "Brasil":
-            verificador = 0
-            for numeros in linha[2]:
-                if verificador == 0:
-                    print(f"Faltas Brasil: {numeros}")
-                elif verificador == 1:
-                    print(f"Faltas Itália: {numeros}")
-                elif verificador == 0:
-                    print(f"Faltas Espanha: {numeros}")
+# Coleta os times
+for jogo in matriz:
+    if jogo[0] not in times:
+        times.append(jogo[0])
+    if jogo[1] not in times:
+        times.append(jogo[1])
 
-                verificador += 1
-                
+# Inicializa a contagem de faltas
+for _ in range(len(times)):
+    faltas.append(0)
 
-print(f"Faltas do brasil: {faltas_brasil}")
+print(faltas)
 
-contador_faltas = 0 
-contador_faltas_total = 0
-contador = 0
-faltas_maior = float("-inf")
-faltas_menor = 0
-linha_maior = 0
-linhas = 0
+# Soma as faltas por time e total
+total_faltas = 0
 
-for linha in matriz:
-    for numero in linha[2]:
-        contador_faltas_total += numero
+for jogo in matriz:
+    time1 = jogo[0]
+    time2 = jogo[1]
+    f1 = jogo[2][0]
+    f2 = jogo[2][1]
 
-#a) O total de faltas do campeonato
-total_faltas = contador_faltas_total
-print(contador_faltas_total)
+    total_faltas += f1 + f2
 
+    for i in range(len(times)):
+        if times[i] == time1:
+            faltas[i] += f1
+        if times[i] == time2:
+            faltas[i] += f2
 
-#c) o time que fez menos faltas
+# Determina quem fez mais e menos faltas
+mais_faltas = faltas[0]
+menos_faltas = faltas[0]
+time_mais = times[0]
+time_menos = times[0]
+
+for i in range(1, len(times)):
+    if faltas[i] > mais_faltas:
+        mais_faltas = faltas[i]
+        time_mais = times[i]
+    if faltas[i] < menos_faltas:
+        menos_faltas = faltas[i]
+        time_menos = times[i]
+
+# Resultados
+print("Total de faltas no campeonato:", total_faltas)
+print("Time que fez mais faltas:", time_mais, f"({mais_faltas})")
+print("Time que fez menos faltas:", time_menos, f"({menos_faltas})")
