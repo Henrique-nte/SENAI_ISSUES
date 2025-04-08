@@ -24,7 +24,6 @@ for jogo in matriz:
 for _ in range(len(times)):
     faltas.append(0)
 
-print(faltas)
 
 # Soma as faltas por time e total
 total_faltas = 0
