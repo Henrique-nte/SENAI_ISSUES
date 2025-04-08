@@ -23,7 +23,6 @@ for linha in matriz:
                     faltas_brasil += numero
                 verificador += 1
 
-
 print(f"Faltas do brasil: {faltas_brasil}")
 
 contador_faltas = 0 
