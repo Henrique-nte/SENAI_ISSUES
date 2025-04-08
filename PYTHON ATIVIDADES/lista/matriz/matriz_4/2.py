@@ -14,14 +14,22 @@ matriz = [
 contador = 0
 faltas_brasil = 0
 verificador = 0
+
 #b) o time que fez mais faltas
 for linha in matriz:
     for time in linha:
         if time == "Brasil":
-            for numero in linha[2]:
+            verificador = 0
+            for numeros in linha[2]:
                 if verificador == 0:
-                    faltas_brasil += numero
-                #verificador += 1
+                    print(f"Faltas Brasil: {numeros}")
+                elif verificador == 1:
+                    print(f"Faltas Itália: {numeros}")
+                elif verificador == 0:
+                    print(f"Faltas Espanha: {numeros}")
+
+                verificador += 1
+                
 
 print(f"Faltas do brasil: {faltas_brasil}")
 
