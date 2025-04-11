@@ -54,5 +54,3 @@ for i in range(len(matriz)):
             mes_faturamento_maior = j + 1
 
 print(f"Mês com maior faturamento: {mes_faturamento_maior}")
-
-

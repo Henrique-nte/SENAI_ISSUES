@@ -10,7 +10,7 @@ matriz = []
 for linha in range(x):
     linha = []
     for coluna in range(y):
-        numero_aleatorio = random.randint(-10, 10)
+        numero_aleatorio = random.randint(-25, 25)
         valor = numero_aleatorio
         linha.append(valor)
     matriz.append(linha)
