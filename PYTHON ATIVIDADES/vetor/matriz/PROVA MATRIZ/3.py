@@ -5,17 +5,14 @@
 #○ Encontre o mês com maior faturamento total. 
 
 #matriz 6X3
-matriz = []
-
-for linha in range(6):
-    linhas = []
-    for coluna in range(3):
-        valor = int(input(f"Para o cliente {linha + 1} no mês {coluna + 1}: "))
-        linhas.append(valor)
-    matriz.append(linhas)
-
-for linha in matriz:
-    print(linha)
+matriz = [
+    [1, 2, 5],
+    [1, 2, 3],
+    [1, 2, 3],
+    [1, 2, 3],
+    [1, 2, 3],
+    [1, 2, 3] 
+]
 
 faturado = 0
 maior_receita = float("-inf")
