@@ -1,12 +1,6 @@
-#Escreva um programa que leia os valores de faturas de 6 clientes durante 3 meses (matriz 6x3)
-#e:
-#○ Calcule o total faturado por cliente.
-#○ Identifique o cliente com maior receita.
-#○ Encontre o mês com maior faturamento total. 
-
 #matriz 6X3
 matriz = [
-    [1, 2, 5],
+    [1, 2, 3],
     [1, 2, 3],
     [1, 2, 3],
     [1, 2, 3],
@@ -31,26 +25,13 @@ for i in range(len(matriz)):
 print(f"Maior receita: {maior_receita}")
 #○ Encontre o mês com maior faturamento total.
 mes_faturamento_maior = 0  
-soma_1 = 0
-soma_2 = 0
-soma_3 = 0
-tamanho = len(matriz)
 
-for i in range(len(matriz)):
-    for j in range(len(matriz[i])):
-        if j == 0:
-            soma_1 += matriz[i][j]
-        if soma_1 > valor:
-            mes_faturamento_maior = j + 1
-            valor = soma_1
-        elif j == 1:
-            soma_2 += matriz[i][j]
-        if soma_2 > valor:
-            mes_faturamento_maior = j + 1
-            valor = soma_2
-        elif j == 2:
-            soma_3 += matriz[i][j]
-        if soma_3 > valor:
-            mes_faturamento_maior = j + 1
+for j in range(len(matriz[0])):  
+    soma = 0
+    for i in range(len(matriz)):  
+        soma += matriz[i][j]
+    if soma > valor:
+        valor = soma
+        mes_faturamento_maior = j
 
-print(f"Mês com maior faturamento: {mes_faturamento_maior}")
+print(f"Mês com maior faturamento: {mes_faturamento_maior + 1}")
