@@ -10,11 +10,18 @@ matriz = []
 for linha in range(x):
     linha = []
     for coluna in range(y):
-        numero_aleatorio = random.randint(1, 100)
+        numero_aleatorio = random.randint(-10, 10)
         valor = numero_aleatorio
         linha.append(valor)
     matriz.append(linha)
 
 for linha in matriz:
-    for elemento in linha:
-        print(elemento)
+    print(linha)
+    
+#e calcule a soma de todos os elementos positivos.
+soma = 0
+for i in range(len(matriz)):
+    for j in range(len(matriz)):
+        if matriz[i][j] > 0:
+            soma += matriz[i][j]
+print(soma)
