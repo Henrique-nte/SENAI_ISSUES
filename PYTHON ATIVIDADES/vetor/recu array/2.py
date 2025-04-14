@@ -4,6 +4,10 @@
 
 dias = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"]
 
+lista = []
 
 for i in range(5):
-    horas = int(input(f"Horas de {dias[i]}:")) 
+    horas = int(input(f"Horas de {dias[i]}:"))
+    lista.append(horas)
+
+print(lista)
