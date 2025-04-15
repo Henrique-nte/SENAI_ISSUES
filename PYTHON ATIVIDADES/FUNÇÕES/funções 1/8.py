@@ -5,9 +5,10 @@
 #valor correspondente na sequência de Fibonacci
 
 def calculo(posicao):
-
+    Fn = 0
+    i = 0
     for i in range(posicao):
-        Fn = Fn - 1 + Fn - 2
+        Fn = (Fn - 1) + (Fn - 2)
 
     return Fn
 
