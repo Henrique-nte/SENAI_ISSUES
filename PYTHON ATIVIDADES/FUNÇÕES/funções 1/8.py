@@ -4,13 +4,12 @@
 # e retorna o
 #valor correspondente na sequência de Fibonacci
 
-def calculo(posicao):
-    Fn = 0
-    i = 0
-    for i in range(posicao):
-        Fn = (Fn - 1) + (Fn - 2)
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
 
-    return Fn
+print(fibonacci(6))  
+    
 
-posicao = 5
-print(calculo(posicao))
+
