@@ -1,20 +1,13 @@
-#Crie uma função que receba duas palavras e retorne True se a 
-#primeira for prefixo da segunda.
-lista = []
-def calculo(word, word_2):
-    contador = 0
-
-    for i in word_2:
-        lista.append(i)
-    for i in word:
-        contador += 1
-
-    if contador >= 2 and contador <= 4:
-        return True
-    else:
+def eh_prefixo(palavra1, palavra2):
+    if len(palavra1) > len(palavra2):
         return False
-    
-palavra = "pinto"
-palavra_2 = "desritmia"
+    for i in range(len(palavra1)):
+        if palavra1[i] != palavra2[i]:
+            return False
+    return True
 
-print(calculo(palavra, palavra_2))
+# Exemplo de uso
+palavra = "in"
+palavra_2 = "inútil"
+
+print(eh_prefixo(palavra, palavra_2))  # Saída: True
