@@ -14,7 +14,6 @@ for i in range(4):
 
 print("São 4 números entre 0 e 9.")
 
-print(lista) 
 
 for i in range(len(lista)):
     adivinhar = int(input("Tente adivinhar a sequência: "))

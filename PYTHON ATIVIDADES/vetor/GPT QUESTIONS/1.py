@@ -5,7 +5,6 @@ array = [1, 2, 3, 4, 5]
 lista = []
 i = len(array)
 
-
 while True:
     i -= 1
     lista.append(array[i])
