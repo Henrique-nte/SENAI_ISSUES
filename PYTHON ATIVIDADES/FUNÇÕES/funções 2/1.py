@@ -4,7 +4,7 @@
 
 def verificar(cadeia):
   for i in cadeia:
-    if i >= "A"  and i <= "Z":
+    if "A" <= i <= "Z":
       return False
   return True  
 string = "abcd"

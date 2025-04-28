@@ -1,4 +1,4 @@
-# Desenvolva uma estrutura modular com uma função que recebe através de 
+# 3 - Desenvolva uma estrutura modular com uma função que recebe através de 
 # parâmetro a cadeia de caracteres e retorna:
 #-1, se existir na cadeia pelo menos um caractere que não seja um 
 # caractere numérico e alfabético.
@@ -8,17 +8,20 @@
 # que quantidade de caracteres numéricos.
 
 def verificar(cadeia):
-##-1, se existir na cadeia pelo menos um caractere que não seja um 
-# caractere numérico e alfabético.
+  numericos = 0
+  caracteres = 0
+
   for i in cadeia:
+    if ('A' <= i <= 'Z'):
+      caracteres += 1
+    elif ('0' <= i <= '9'):
+      numericos += 1
+    else:
+     return -1
+  if numericos > caracteres:
+    return 0
+  else:
+    return 1
     
-    alfabeto = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 
-    'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-
-    if i.upper() not in alfabeto and i != int:
-      return -1
-    
-
-string = "..."
-
+string = "11a".upper()
 print(verificar(string))
