@@ -4,7 +4,7 @@
 #compreendidos entre 1 e 500.
 def perfect():
     perfeitos = []
-    for i in range(10, 500):
+    for i in range(1, 500):
         j = 1
         divisores = []
         resul = 0
@@ -21,7 +21,4 @@ def perfect():
     return perfeitos        
         
         
-        
-        
-
 print(perfect())
