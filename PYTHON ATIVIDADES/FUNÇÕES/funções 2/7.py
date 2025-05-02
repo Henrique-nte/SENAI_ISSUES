@@ -1,33 +1,33 @@
-#7.	Números palíndromos são aqueles que escritos da direita para a esquerda
-#têm o mesmo valor quando escritos da esquerda para a direita.
-#Exemplo: 545; 97379; 123454321; etc. Escreva uma função que, 
+#8  - Escreva uma função que, 
 #recebendo como parâmetro um número inteiro, retorne este número
 #escrito ao contrário.
+def verificar_palindromo(numero):
+    contrario = []
+    contador = 0
+    
+    for i in range(len(numero) -1, -1, -1):
+        contrario.append(numero[i])
+
+    j = 0
+    for i in numero:
+        if i == contrario[j]:
+            contador += 1
+            j += 1 
+
+    string = ''
+
+    if contador == len(numero):
+        for i in numero:
+            string += i 
+        print(string,'|',end = '')
+        
 #A seguir, implementar uma estrutura modular
 #que determine e escreva, usando a função implementada, todos os 
 #números palíndromos entre 1000 e 10000.
 
-def palindromo(numero):
-    contrario = []
-    original = []
-    contador = 0
-    for i in numero:
-        original.append(i)
-
-    for i in range(len(numero) -1, -1, -1):
-        contrario.append(numero[i])
-
-    for i in range(len(numero)):
-        if original[i] == contrario[i]:
-            contador +=1
-
-    if contador == len(numero):
-        return True
-    
-    return False
-
-def funcao():
+def de1000a10000():
     for i in range(1000, 10000):
-        palindromo(str(i))
+        verificar_palindromo(str(i))   
+
+print(de1000a10000())
     
-funcao()
