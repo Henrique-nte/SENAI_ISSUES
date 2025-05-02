@@ -15,15 +15,12 @@ def verificar_palindromo(numero):
 
     if contador == len(numero):
       for i in numero:
-          string += i 
-      print(string,'|',end = '')
-        
+          string += i
+      print(string)
+       
 #A seguir, implementar uma estrutura modular
 #que determine e escreva, usando a função implementada, todos os 
 #números palíndromos entre 1000 e 10000.
 
-def funcao():
-    for i in range(1000, 10000):
-        verificar_palindromo(str(i))   
-
-print(funcao())
+for i in range(1000, 10000):
+    verificar_palindromo(str(i))   
