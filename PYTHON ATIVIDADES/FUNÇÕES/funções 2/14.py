@@ -9,25 +9,21 @@ def nota_final(quatro, final):
 
     return soma_3 + final
 
-final_note = nota_final
-
-def conceito(final_note):
-    if 90 <= final_note <= 100:
+def conceito(nota):
+    if 90 <= nota <= 100:
         return 'A'
-    elif 80 <= final_note < 90:
+    elif 80 <= nota < 90:
         return 'B'
-    elif 70 <= final_note < 80:
+    elif 70 <= nota < 80:
         return 'C'
-    elif 60 <= final_note < 70:
+    elif 60 <= nota < 70:
         return 'D'
-    elif 40 <= final_note < 60:
+    elif 40 <= nota < 60:
         return 'E'
-    elif 0 <= final_note < 40:
+    elif 0 <= nota < 40:
         return 'F'
     else:
         return 'Nota inválida'
-
-print(conceito(final_note))
 
 alunos = [
     [1, 7.0, 8.5, 6.5, 9.0, 8.0],
@@ -40,7 +36,9 @@ alunos = [
     [8, 10.0, 9.5, 10.0, 9.5, 8]
 ]
 
-for i in range(len(alunos)):
-    for j in range(1, len(alunos[0])):
-        print(nota_final(alunos[j], alunos[j + 1], alunos[j + 2], alunos[j + 3], alunos[j + 4]))
-    print(f"Para o aluno {i} Nota Final: {nota_final} Conceito: {conceito}")
+for aluno in alunos:
+    numero = aluno[0]
+    notas_mensais = aluno[1:5]
+    prova_final = aluno[5]
+    nota = nota_final(notas_mensais, prova_final)
+    print(f"Aluno {numero} | Nota Final: {nota} | Conceito: {conceito(nota)}")
