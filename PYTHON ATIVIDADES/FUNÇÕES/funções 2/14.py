@@ -1,3 +1,4 @@
+# 14
 def nota_final(quatro, final):
     menor = quatro[0]
     soma_3 = 0
