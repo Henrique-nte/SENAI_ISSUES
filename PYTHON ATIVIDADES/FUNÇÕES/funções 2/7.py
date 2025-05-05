@@ -23,4 +23,4 @@ def verificar_palindromo(numero):
 #números palíndromos entre 1000 e 10000.
 
 for i in range(1000, 10000):
-    verificar_palindromo(str(i))   
+    verificar_palindromo(str(i))
