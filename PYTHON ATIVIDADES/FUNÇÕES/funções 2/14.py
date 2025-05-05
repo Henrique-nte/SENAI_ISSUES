@@ -1,14 +1,14 @@
 # 14
 def nota_final(quatro, final):
     menor = quatro[0]
-    soma_3 = 0
+    soma = 0
     for i in range(len(quatro)):
         if menor > quatro[i]:
             menor  = quatro[i]
         else:
-            soma_3 += quatro[i]
+            soma += quatro[i]
 
-    return soma_3 + final
+    return soma + final
 
 def conceito(nota):
     if 90 <= nota <= 100:
