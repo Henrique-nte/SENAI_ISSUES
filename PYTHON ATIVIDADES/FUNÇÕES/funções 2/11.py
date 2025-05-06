@@ -24,6 +24,6 @@ def cifra_de_cesar(texto, chave):
 
 string = "olamundo"
 print(f"Original: {string} ")
-key = 2
+key = -2
 
 print("Criptografado:", cifra_de_cesar(string, key))
