@@ -12,13 +12,11 @@ def cifra_de_cesar(texto, chave):
     i = 0
     j = 0
 
-    while i < len(texto):
-        j = 0
-        while j < len(alfabeto):
+    for i in range(len(texto)):
+        for j in range(len(alfabeto)):
             if texto[i] == alfabeto[j]:
                 texto_criptografado += (alfabeto[j + chave])
-            j += 1
-        i += 1
+
 
     return texto_criptografado
 
