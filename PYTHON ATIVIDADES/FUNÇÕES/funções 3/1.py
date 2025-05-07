@@ -34,5 +34,6 @@ while True:
     converter(real, opcao)
     continue
   else:
+    limpar()
     print("Opção inválida!")
     continue
