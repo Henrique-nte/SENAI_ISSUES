@@ -2,8 +2,13 @@
 #determinar e retornar o n-ésimo termo da sequência de Fibonacci.
 
 def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
+    a = 0
+    b = 1
+    for i in range(n):
+        temp = a  # Guardamos o valor de 'a' temporariamente
+        a = b     # Agora 'a' recebe o valor de 'b'
+        b = temp + b  # E 'b' recebe a soma do antigo 'a' com o atual 'b'
+    return a
 
-print(fibonacci(6))  
+n = int(input("Digite o valor de n: "))
+print(f"O {n}º termo da sequência de Fibonacci é {fibonacci(n)}.")
