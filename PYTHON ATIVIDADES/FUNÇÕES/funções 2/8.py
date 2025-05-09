@@ -16,7 +16,7 @@ def numeros_especiais(numero):
     if j <= 1:
       dois_primeiros += i
     j +=1 
-
+  
   two_primeiros = int(dois_primeiros)
   
   j = 0
