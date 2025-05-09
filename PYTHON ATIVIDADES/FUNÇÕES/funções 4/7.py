@@ -13,20 +13,38 @@
 #* 1       *
 #*=========*
 
-matriz = [
-    [1, 1, 1, 1],
-    [2, 2, 2, 2],
-    [3, 3, 3, 3],
-    [4, 4, 4, 4]
-]
-
 def sequencia(n):
-    string_n = str(n)
-    
-    for i in range(len(matriz)):
-        for j in range(len(matriz)):
-            if j > 2:
-                print(matriz[i][j], end = '')
+   
+    # 1 ate 4
 
-numero = 4
-sequencia(numero)
+    for i in range(1, n):
+        print('*', end=' ')
+        for k in range(n - i):
+            print(' ', end=' ')
+        for j in range(i):
+            print(i, end=' ')
+        print('*')    
+        
+    print('*', end=' ')
+    for i in range(n):
+        print(n, end=' ')
+    print('*')
+
+     # 4 ate 1
+    print('*', end=' ')
+    for i in range(n):
+        print(n, end=' ')
+    print('*')
+
+    for i in range(n - 1, 0, -1):
+        print('*', end=' ')
+        for j in range(i):
+            print(i, end=' ')
+        for k in range(n - i):
+            print(' ', end=' ')
+        print('*')
+    
+    
+
+# Exemplo:
+sequencia(4)
