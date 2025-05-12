@@ -6,3 +6,10 @@
 #  5 5 5 5 5
 #7 7 7 7 7 7 7
 #=============
+
+def sequencia(n):
+    for i in range(1, n):
+        for j in range(n - i):
+            print(i, end='\n')
+
+sequencia(7)
