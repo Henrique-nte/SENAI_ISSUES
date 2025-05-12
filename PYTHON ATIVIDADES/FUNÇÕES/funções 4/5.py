@@ -6,3 +6,40 @@
 #  fez um 4, 5, 6, 8, 9 ou 10, este é seu "Ponto". Seu objetivo 
 # agora é continuar jogando os dados até tirar este número novamente.
 #  Você perde, no entanto, se tirar um 7 antes de tirar este Ponto novamente.
+import random
+
+def jogada():
+    dado_one = random.randint(1, 6)
+    dado_second = random.randint(1, 6)
+    return dado_one + dado_second
+
+print("WELCOME TO THE CRAPS GAME")
+
+inicio = int(input("(1) Jogar dados\n(2) Sair\nSua escolha:"))
+if inicio == 1:
+    play = jogada()
+    print(f"Soma dados: {play}")
+
+if inicio == 2:
+    print("SEE YA")
+
+point = 0
+
+if play == 7 or play == 11:
+    print("NATURAL, YOU WIN")
+elif play == 2 or play == 3 or play == 12:
+    print("CRAPS, YOU LOST!!")
+else:
+    point += play
+    while True:
+        point = play
+        print("FASE POINT")
+        game = jogada()
+        print(f"Soma dados: {game}")
+
+        if game == point:
+            print("WON!")
+            break
+        elif game == 7:
+            print("YOU LOST!")
+            break   
