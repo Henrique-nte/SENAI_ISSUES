@@ -7,6 +7,11 @@
 # agora é continuar jogando os dados até tirar este número novamente.
 #  Você perde, no entanto, se tirar um 7 antes de tirar este Ponto novamente.
 import random
+import os
+
+def limpar():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 
 def jogada():
     dado_one = random.randint(1, 6)
@@ -17,6 +22,7 @@ print("WELCOME TO THE CRAPS GAME")
 
 inicio = int(input("(1) Jogar dados\n(2) Sair\nSua escolha:"))
 if inicio == 1:
+    limpar()
     play = jogada()
     print(f"Soma dados: {play}")
 
@@ -24,7 +30,6 @@ if inicio == 2:
     print("SEE YA")
 
 point = 0
-
 if play == 7 or play == 11:
     print("NATURAL, YOU WIN")
 elif play == 2 or play == 3 or play == 12:
@@ -34,6 +39,7 @@ else:
     while True:
         point = play
         print("FASE POINT")
+        jogar = int(input("Digite para rolar os dados: "))
         game = jogada()
         print(f"Soma dados: {game}")
 
