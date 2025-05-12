@@ -8,6 +8,29 @@
 #  até que seja informado um valor igual a zero para a prestação. Neste
 #  momento o programa deverá ser encerrado, exibindo o relatório do dia,
 #  que conterá a quantidade e o valor total de prestações pagas no dia.
-#  O cálculo do valor a ser pago é feito da seguinte forma. Para pagamentos
-# sem atraso, cobrar o valor da prestação. Quando houver atraso, cobrar 
-# 3% de multa, mais 0,1% de juros por dia de atraso.
+
+def valorPagamento(valor, dias):
+
+  if dias == 0:
+    return valor
+  
+  if dias > 0:
+      multa = valor * 0.03
+      juros = valor * (0.01 * dias)
+      return valor + multa + juros
+  
+quantidade = 0
+soma = 0
+while True:
+  value = float(input("Valor da prestação: "))
+
+  if value == 0:
+    break
+  quantidade += 1
+  soma += value
+  days = int(input("Dias em atraso: "))
+  print(valorPagamento(value, days))
+
+print("RELATÓRIO DO DIA\n")
+print(f"Quantidade de prestações pagas no dia: {quantidade}")
+print(f"Valor total de prestações: {soma}")
