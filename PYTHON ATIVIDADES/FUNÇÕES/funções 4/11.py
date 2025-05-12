@@ -10,6 +10,6 @@
 def sequencia(n):
     for i in range(1, n):
         for j in range(n - i):
-            print(i, end='\n')
+            print(i, end=' ')
 
 sequencia(7)

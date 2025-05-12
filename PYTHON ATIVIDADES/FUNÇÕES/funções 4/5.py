@@ -7,12 +7,11 @@
 # agora é continuar jogando os dados até tirar este número novamente.
 #  Você perde, no entanto, se tirar um 7 antes de tirar este Ponto novamente.
 import random
-import os
+
 def jogada():
     dado_one = random.randint(1, 6)
     dado_second = random.randint(1, 6)
     return dado_one + dado_second
-
 
 
 print("---WELCOME TO THE CRAPS GAME---")
