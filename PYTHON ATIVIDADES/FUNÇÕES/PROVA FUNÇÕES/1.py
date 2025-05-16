@@ -4,7 +4,7 @@
 
 def area(raio):
     area = 3.14 * (raio * raio)
-    return area
+    return f"Área do circulo: {area}"
 
-ray = float(input("Digite o raio do círculo: "))    
+ray = float(input("Digite o valor do raio: "))    
 print(area(ray))

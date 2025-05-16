@@ -5,8 +5,10 @@
 
 def lucro(custo, preco):
     lucro = preco - custo
+    if lucro < 0:
+        lucro = 0
     percentual = (custo / 100) * lucro
-    return f"Lucro: {lucro}R$\npercentual: {percentual}%"
+    return f"Lucro: {lucro}R$\npercentual de lucro: {percentual}%"
 
 for i in range(3):
     custo = float(input(f"Custo do produto {i + 1}:"))
