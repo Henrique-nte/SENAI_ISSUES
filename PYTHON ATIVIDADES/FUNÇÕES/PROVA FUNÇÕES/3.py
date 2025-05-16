@@ -7,7 +7,8 @@ def lucro(custo, preco):
     lucro = preco - custo
     if lucro < 0:
         lucro = 0
-    percentual = (custo / 100) * lucro
+    percentual = ((preco - custo) / custo) * 100
+
     return f"Lucro: {lucro}R$\npercentual de lucro: {percentual}%"
 
 for i in range(3):
