@@ -9,8 +9,6 @@ def cifra_de_cesar(texto, chave):
             'v', 'w', 'x', 'y', 'z']
     
     texto_criptografado = ''
-    i = 0
-    j = 0
 
     for i in range(len(texto)):
         for j in range(len(alfabeto)):
