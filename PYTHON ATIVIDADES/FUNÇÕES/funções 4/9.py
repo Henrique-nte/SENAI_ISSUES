@@ -20,8 +20,6 @@
 #              2 2 * 2 2
 #                1 * 1
 
-
-
 def sequencia(n):
   for i in range(1, n + 1):
     print("*", end = " ")
