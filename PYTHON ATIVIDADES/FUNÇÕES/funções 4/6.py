@@ -7,26 +7,29 @@ meses = [
     'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
 ]
 
+
+
 def devolver(data):
     if data < 8:
         print(None)
     else:
-        dia = ''
-        mes = ''
-        ano = ''
-        j = 0
-        data = str(data)
-        for i in data:
-            if j > 1 and j <= 3:
-                mes += i
-            if j >= 0 and j < 2:
-                dia += i
-            if j > 3:
-                ano += i
-            j += 1
-        mes = int(mes)
-        mes -= 1
-        return (f"{dia} de {meses[mes]} de {ano}")
+        #Pegar Dia
+        dia = data // 1000000
 
-data = int(input("Digite uma data: "))
+        #Pegar Mês
+        numeros = []
+        date = str(data)
+        for i in range(len(date)):
+            numeros.append(date[i])
+        
+        mes = numeros[3]
+        mes = int(mes)
+        
+        #Pegar Ano
+        ano = data %10000
+        
+        return (f"{dia} de {meses[mes - 1]} de {ano}")
+
+#data = int(input("Digite uma data: "))
+data = 18042006
 print(devolver(data))

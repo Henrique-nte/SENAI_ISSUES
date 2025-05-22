@@ -29,8 +29,6 @@ def sequencia(n):
       print(i, end=' ')
     print('*')
 
-  
-  
   for i in range(n, 0, - 1):
     print("*", end = " ")
     for j in range(n - i):

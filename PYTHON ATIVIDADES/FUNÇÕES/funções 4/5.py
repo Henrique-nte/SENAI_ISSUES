@@ -26,7 +26,7 @@ if play == 7 or play == 11:
 elif play == 2 or play == 3 or play == 12:
     print("---CRAPS, YOU LOST!!---")
 else:
-    point += play
+    point = play
     while True:
         point = play
         print("---FASE POINT---")
