@@ -7,12 +7,10 @@ meses = [
     'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
 ]
 
-
-
 def devolver(data):
     if data < 8:
-        print(None)
-    else:
+        return None
+    elif data >= 8:
         #Pegar Dia
         dia = data // 1000000
 
@@ -31,5 +29,5 @@ def devolver(data):
         return (f"{dia} de {meses[mes - 1]} de {ano}")
 
 #data = int(input("Digite uma data: "))
-data = 18042006
+data = 3333
 print(devolver(data))
