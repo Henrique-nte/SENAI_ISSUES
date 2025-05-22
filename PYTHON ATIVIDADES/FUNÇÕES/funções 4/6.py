@@ -20,7 +20,8 @@ def devolver(data):
         for i in range(len(date)):
             numeros.append(date[i])
         
-        mes = numeros[3]
+        mes = numeros[2]
+        mes += numeros[3]
         mes = int(mes)
         
         #Pegar Ano
@@ -29,5 +30,5 @@ def devolver(data):
         return (f"{dia} de {meses[mes - 1]} de {ano}")
 
 #data = int(input("Digite uma data: "))
-data = 3333
+data = 27102007
 print(devolver(data))
