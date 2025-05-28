@@ -9,9 +9,10 @@ def imposto(total, porcentagem):
     imposto = total * (porcentagem / 100)
     return f"Imposto: {imposto}"
 
+total = 0
 for i in range(10):
     valor = float(input(f"Valor da venda {i + 1}: "))
-    valor += valor
+    total += valor
 
 aliquota = float(input("Alíquota: "))
-print(imposto(valor, aliquota))
+print(imposto(total, aliquota))
