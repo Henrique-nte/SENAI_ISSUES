@@ -9,7 +9,7 @@ def faturamento(array):
     dados = []
     for i in range(len(array)):
         faturamento = 0.0
-        for j in range(len(array)):
+        for j in range(len(array[i])):
             faturamento += array[i][j]
         dados.append(faturamento)
     return dados
