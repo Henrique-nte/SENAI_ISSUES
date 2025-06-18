@@ -5,8 +5,11 @@
 
 def verificar(numero, vetor):
     new_vetor = []
+    if numero in vetor:
+        encontrado = numero
+        
     for i in range(len(vetor)):
-        if numero != vetor[i]:
+        if vetor[i] != encontrado:
             new_vetor.append(vetor[i])
     
     return new_vetor

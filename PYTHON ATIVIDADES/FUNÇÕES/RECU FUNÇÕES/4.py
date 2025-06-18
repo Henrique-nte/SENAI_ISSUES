@@ -1,11 +1,9 @@
 #Crie uma função que recebe três números inteiro representando horas, minutos e
 #segundos e converte esse valor para segundos
 
-def converter(hora, minuto, segundos):
-    hour = hora * 3600
-    minu = minuto * 60
-    resul = hour + minu + segundos
-    return resul
+def converter(horas, minutos, segundos):
+    total = (horas * 3600) + (minutos * 60) + segundos
+    return total
 
 one = 2
 two = 25
