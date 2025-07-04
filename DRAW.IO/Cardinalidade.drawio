@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="27.1.6">
+  <diagram name="Página-1" id="iA5zlDapMS2VYP5x8y2V">
+    <mxGraphModel dx="671" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dpNasas59TxUKphN5B6h-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpNasas59TxUKphN5B6h-16" target="dpNasas59TxUKphN5B6h-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="198.0000000000001" y="217" as="sourcePoint" />
+            <mxPoint x="258" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-16" value="ALUNO" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="88" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-17" value="REALIZA" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="248" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-18" value="TRABALHO" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="438" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dpNasas59TxUKphN5B6h-18" target="dpNasas59TxUKphN5B6h-17">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="490" as="sourcePoint" />
+            <mxPoint x="420" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-21" value="DIRETOR" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="83" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-22" value="REALIZA" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="243" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-23" value="DEPT" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="433" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-26" value="AUTOR" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="88" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-27" value="REALIZA" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="248" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-28" value="LIVROS" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="438" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-35" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpNasas59TxUKphN5B6h-21" target="dpNasas59TxUKphN5B6h-22">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="200" y="730" as="sourcePoint" />
+            <mxPoint x="300" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-36" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dpNasas59TxUKphN5B6h-22" target="dpNasas59TxUKphN5B6h-23">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="sourcePoint" />
+            <mxPoint x="450" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dpNasas59TxUKphN5B6h-37" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dpNasas59TxUKphN5B6h-26" target="dpNasas59TxUKphN5B6h-27">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="720" as="sourcePoint" />
+            <mxPoint x="370" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
