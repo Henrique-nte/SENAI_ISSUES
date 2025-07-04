@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="27.2.0">
   <diagram name="Página-1" id="b4JkCRnROzZ7c5UDisCW">
-    <mxGraphModel dx="2264" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1648" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mdvhE89lCFFaDwQqOyZz-39" value="&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Cada turma possui vários alunos matriculados, e cada aluno só pode&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;estar matriculado em uma única turma por vez.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Tarefa: Modele as entidades ALUNO e TURMA e&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;defina o relacionamento e a cardinalidade entre elas.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="75" y="1298" width="610" height="130" as="geometry" />
+          <mxGeometry x="75" y="1350" width="610" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mdvhE89lCFFaDwQqOyZz-40" value="ALUNO" style="whiteSpace=wrap;html=1;align=center;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="179" y="1500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mdvhE89lCFFaDwQqOyZz-41" value="TURMA" style="whiteSpace=wrap;html=1;align=center;strokeColor=default;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1500" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
