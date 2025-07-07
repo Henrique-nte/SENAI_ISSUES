@@ -275,18 +275,18 @@
           <mxGeometry x="-130" y="2435" width="1040" height="100" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-12" value="PROFESSOR" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="110" y="2590" width="100" height="40" as="geometry" />
+          <mxGeometry x="250" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-13" value="ALUNO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="279" y="2590" width="100" height="40" as="geometry" />
+          <mxGeometry x="79" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-14" value="AULA" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="600" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-15" value="AGENDADA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="420" y="2580" width="120" height="60" as="geometry" />
+          <mxGeometry x="413.5" y="2580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U3oXg3PVO8bCUbWkIK39-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+        <mxCell id="U3oXg3PVO8bCUbWkIK39-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U3oXg3PVO8bCUbWkIK39-14" target="U3oXg3PVO8bCUbWkIK39-15">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="540" y="2690" as="sourcePoint" />
             <mxPoint x="650" y="2690" as="targetPoint" />
