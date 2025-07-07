@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="27.2.0">
   <diagram name="Página-1" id="b4JkCRnROzZ7c5UDisCW">
-    <mxGraphModel dx="2007" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,13 +278,19 @@
           <mxGeometry x="110" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-13" value="ALUNO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="290" y="2590" width="100" height="40" as="geometry" />
+          <mxGeometry x="279" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-14" value="AULA" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="600" y="2590" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U3oXg3PVO8bCUbWkIK39-15" value="AGENDADA" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="440" y="2580" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="2580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3oXg3PVO8bCUbWkIK39-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="2690" as="sourcePoint" />
+            <mxPoint x="650" y="2690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
