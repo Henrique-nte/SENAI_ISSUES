@@ -214,6 +214,9 @@
         <mxCell id="_MPnUFkDLxuwiak6MrQY-78" value="PRODUTO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="280" y="990" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_MPnUFkDLxuwiak6MrQY-79" value="ITEM_PEDIDO" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="514" y="1000" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
